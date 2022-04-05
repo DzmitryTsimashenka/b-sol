@@ -10,5 +10,18 @@
   padding: 0 15px;
 }
 .icon-block .material-icons {
-	font-size: inherit;
+  font-size: inherit;
+}
+
+.container .post {
+  padding: 1.5em;
+}
+
+.post-date {
+  color: #808080;
+  font-style: italic;
+}
+
+.post-images img {
+  width: 100%;
 }
