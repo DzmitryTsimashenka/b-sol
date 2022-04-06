@@ -22,21 +22,25 @@
   font-style: italic;
 }
 
+.post-description,
+.see-more {
+  font-size: 1.2em;
+}
+
 .post-images img {
   width: 100%;
 }
 
-.instagramm {
+.instagram {
   display: flex;
   align-items: center;
 }
 
-.mts-icon,
 .insta-icon {
-  margin: 0.5em;
+  margin-right: 0.5em;
   width: 30px;
 }
 
 @media screen {
-  
+
 }
