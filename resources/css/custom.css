@@ -6,10 +6,6 @@ header {
     background-color: #212741;
 }
 
-.active {
-    color: #ff511a;
-}
-
 .navigation {
     li {
         ~:hover a {
