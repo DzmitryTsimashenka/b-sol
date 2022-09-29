@@ -1,8 +1,10 @@
-// Navigation toggle
-window.addEventListener('load', function () {
-      let main_navigation = document.querySelector('#primary-menu');
-      document.querySelector('#primary-menu-toggle').addEventListener('click', function (e) {
-            e.preventDefault();
-            main_navigation.classList.toggle('hidden');
-      });
+const Swipes = new Swiper('.swiper-container', {
+      loop: true,
+      navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+            el: '.swiper-pagination',
+      },
 });

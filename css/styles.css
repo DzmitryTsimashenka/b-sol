@@ -571,10 +571,6 @@ video {
   height: 1px;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .w-6 {
   width: 1.5rem;
 }
@@ -641,21 +637,6 @@ video {
 
 .border-b-2 {
   border-bottom-width: 2px;
-}
-
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-amber-700 {
-  --tw-border-opacity: 1;
-  border-color: rgb(180 83 9 / var(--tw-border-opacity));
-}
-
-.border-orange-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(249 115 22 / var(--tw-border-opacity));
 }
 
 .border-orange-300 {
@@ -763,10 +744,77 @@ header {
   display: block;
 }
 
-.hover\:bg-red-400:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+/* Swiper slides start */
+
+.swiper-container {
+  width: 100%;
 }
+
+.swiper-slide {
+  background-size: cover;
+  background-position: 50%;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.swiper-pagination-bullet {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+
+.swiper-button-container {
+  background-color: rgba(0,0,0,.25);
+}
+
+.swiper-button-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E")
+}
+
+.swiper-button-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
+}
+
+.swiper-slide:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: .4;
+}
+
+.swiper-slide h2 {
+  pointer-events: none;
+  opacity: 0;
+  color: #ffffff;
+  font-size: calc(5vw);
+  letter-spacing: -1px;
+  transform: translateY(-5%) scale(.8);
+  transition: 1s ease;
+  text-transform: uppercase;
+  text-shadow: 0 5px 5px rgba(0,0,0, .01);
+}
+
+.swiper-slide-active h2 {
+  opacity: 1;
+  transform: translateY(0%) scale(1);
+  transition: 1s ease;
+}
+
+/* Swiper slides end */
 
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
