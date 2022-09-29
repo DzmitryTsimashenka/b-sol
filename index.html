@@ -5,12 +5,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/splide.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>B Sol</title>
 </head>
 <body>
 <header  x-data="{ open: false }">
-    <div class="container mx-auto px-4 py-2 flex content-center justify-between">
+    <nav class="container mx-auto px-4 py-2 flex content-center justify-between">
         <div class="logo">
             <a href="/" class="logo block">
                 <img src="images/logo.png" alt="B-Sol company">
@@ -39,7 +40,7 @@
                 </span>
             </div>
         </button>
-    </div>
+    </nav>
     <!-- Mobile menu start -->
     <div class="lg:hidden flex relative justify-center w-full">
         <div id="mobile-menu"
@@ -92,41 +93,33 @@
     </div>
     <!-- Mobile menu end -->
 </header>
-<div class="flex h-full w-full">
-    <div class="swiper-container">
-        <!-- swiper slides -->
-        <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background-image: url(https://source.unsplash.com/random?sig=24);">
-                <h2>SIMPLE SWIPER</h2>
-            </div>
-
-            <div class="swiper-slide" style="background-image: url(https://source.unsplash.com/random?sig=53);">
-                <h2>HELLO WORLD</h2>
-            </div>
-
-            <div class="swiper-slide" style="background-image: url(https://source.unsplash.com/random?sig=52);">
-                <h2>Random Text 1</h2>
-            </div>
-
-            <div class="swiper-slide" style="background-image: url(https://source.unsplash.com/random?sig=21);">
-            </div>
-
-            <div class="swiper-slide" style="background-image: url(https://source.unsplash.com/random?sig=53);">
+<main>
+    <section class="splide h-screen" aria-label="Splide Basic HTML Example">
+        <div class="splide__track h-full">
+            <div class="splide__list">
+                <div class="splide__slide" style="background-image: url(https://source.unsplash.com/random?sig=24);">
+                    <h2>SIMPLE SWIPER</h2>
+                </div>
+                <div class="splide__slide" style="background-image: url(https://source.unsplash.com/random?sig=53);">
+                    <h2>HELLO WORLD</h2>
+                </div>
+                <div class="splide__slide" style="background-image: url(https://source.unsplash.com/random?sig=52);">
+                    <h2>Random Text 1</h2>
+                </div>
+                <div class="splide__slide" style="background-image: url(https://source.unsplash.com/random?sig=21);">
+                </div>
+                <div class="splide__slide" style="background-image: url(https://source.unsplash.com/random?sig=53);">
+                </div>
             </div>
         </div>
-        <!-- !swiper slides -->
-
-        <!-- next / prev arrows -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <!-- !next / prev arrows -->
-
-        <!-- pagination dots -->
-        <div class="swiper-pagination"></div>
-        <!-- !pagination dots -->
-    </div>
-</div>
+    </section>
+    <section>
+        <p>
+            Дело в том, что Lorem Ipsum — это стандарт, который возник еще очень давно, и секрет его магической привлекательности прост: он выдуман лишь отчасти. Этот, казалось бы, «фальшивый» текст на самом деле имеет смысл, и перед тем, как попасть на экран вашего браузера, он прошел долгий путь развития. Однажды выйдя из-под пера римского философа, он претерпел значительные изменения в средние века, когда один из «дизайнеров» того времени — наборщик текста на печатном станке — сознательно перепутал все его содержимое.
+        </p>
+    </section>
+</main>
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script>
+<script src="js/splide.min.js"></script>
 <script defer src="js/app.js"></script>
 </body>
