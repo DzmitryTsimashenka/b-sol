@@ -9,7 +9,7 @@
     <title>B Sol</title>
 </head>
 <body>
-<header  x-data="{ mobileMenuIsOpen: false }">
+<header  x-data="{ open: false }">
     <div class="container mx-auto p-2 flex content-center justify-between">
         <div class="logo">
             <a href="/" class="logo block">
@@ -25,16 +25,16 @@
             </ul>
         </nav>
         <button
-                x-on:click="mobileMenuIsOpen = !mobileMenuIsOpen"
+                x-on:click="open = !open"
                 class="lg:hidden flex items-center space-x-2 focus:outline-none">
             <div class="text-white w-6 flex items-center justify-center relative">
-                <span x-bind:class="mobileMenuIsOpen ? 'translate-y-0 rotate-45' : '-translate-y-2'"
+                <span x-bind:class="open ? 'translate-y-0 rotate-45' : '-translate-y-2'"
                       class="transform transition w-full h-px bg-current absolute">
                 </span>
-                <span x-bind:class="mobileMenuIsOpen ? 'opacity-0 translate-x-3' : 'opacity-100'"
+                <span x-bind:class="open ? 'opacity-0 translate-x-3' : 'opacity-100'"
                       class="transform transition w-full h-px bg-current absolute">
                 </span>
-                <span x-bind:class="mobileMenuIsOpen ? 'translate-y-0 -rotate-45' : 'translate-y-2'"
+                <span x-bind:class="open ? 'translate-y-0 -rotate-45' : 'translate-y-2'"
                       class="transform transition w-full h-px bg-current absolute">
                 </span>
             </div>
@@ -44,10 +44,10 @@
     <div class="md:hidden flex justify-center mt-3 w-full">
         <div id="mobile-menu"
              class="mobile-menu absolute top-23 w-full"
-             x-bind:class="mobileMenuIsOpen ? 'block active' : ''"
+             x-bind:class="open ? 'block active' : ''"
         >
             <ul class="bg-gray-100 shadow-lg leading-9 font-bold h-screen">
-                <li class="border-b-2 border-white hover:bg-red-400 hover:text-white pl-4"><a href="https://google.com" class="block pl-7">Главная</a></li>
+                <li class="border-b-2 border-white hover:bg-red-400 hover:text-white pl-4"><a href="№" class="block pl-7">Главная</a></li>
                 <li class="border-b-2 border-white hover:bg-red-400 hover:text-white pl-4"><a href="#" class="block pl-7">Наши работы</a></li>
                 <li class="border-b-2 border-white hover:bg-red-400 hover:text-white pl-4"><a href="#" class="block pl-7">Наш инструмент</a></li>
                 <li class="border-b-2 border-white hover:bg-red-400 hover:text-white pl-4"><a href="#" class="block pl-7">Контакты</a></li>
