@@ -10,7 +10,7 @@
 </head>
 <body>
 <header  x-data="{ open: false }">
-    <div class="container mx-auto p-2 flex content-center justify-between">
+    <div class="container mx-auto px-4 py-2 flex content-center justify-between">
         <div class="logo">
             <a href="/" class="logo block">
                 <img src="images/logo.png" alt="B-Sol company">
@@ -26,7 +26,7 @@
         </nav>
         <button
                 x-on:click="open = !open"
-                class="lg:hidden flex items-center space-x-2 focus:outline-none">
+                class="lg:hidden flex items-center space-x-2">
             <div class="text-white w-6 flex items-center justify-center relative">
                 <span x-bind:class="open ? 'translate-y-0 rotate-45' : '-translate-y-2'"
                       class="transform transition w-full h-px bg-current absolute">
@@ -40,20 +40,57 @@
             </div>
         </button>
     </div>
-    <!-- Mobile menu -->
-    <div class="md:hidden flex relative justify-center mt-3 w-full">
+    <!-- Mobile menu start -->
+    <div class="lg:hidden flex relative justify-center w-full">
         <div id="mobile-menu"
              class="mobile-menu absolute top-23 w-full"
              x-bind:class="open ? 'block active' : ''"
         >
-            <ul class="bg-gray-100 shadow-lg leading-9 font-bold h-screen">
-                <li class="border-b-2 border-white hover:bg-red-400 hover:text-white pl-4"><a href="#" class="block pl-7">Главная</a></li>
-                <li class="border-b-2 border-white hover:bg-red-400 hover:text-white pl-4"><a href="#" class="block pl-7">Наши работы</a></li>
-                <li class="border-b-2 border-white hover:bg-red-400 hover:text-white pl-4"><a href="#" class="block pl-7">Наш инструмент</a></li>
-                <li class="border-b-2 border-white hover:bg-red-400 hover:text-white pl-4"><a href="#" class="block pl-7">Контакты</a></li>
+            <ul class="bg-gray-100 shadow-lg leading-9 font-bold">
+                <li class="border-b-2 border-orange-300 hover:text-white pl-4">
+                    <a
+                        x-on:click="open = !open"
+                        href="#"
+                        class="block"
+                    >
+                        Главная
+                    </a
+                >
+                </li>
+                <li class="border-b-2 border-orange-300 hover:text-white pl-4">
+                    <a
+                        x-on:click="open = !open"
+                        href="#"
+                        class="block"
+                    >
+                        Наши работы
+                    </a
+                >
+                </li>
+                <li class="border-b-2 border-orange-300 hover:text-white pl-4">
+                    <a
+                        x-on:click="open = !open"
+                        href="#"
+                        class="block"
+                    >
+                        Наш инструмент
+                    </a
+                >
+                </li>
+                <li class="border-b-2 border-orange-300 hover:text-white pl-4">
+                    <a
+                        x-on:click="open = !open"
+                        href="#"
+                        class="block"
+                    >
+                        Контакты
+                    </a
+                >
+                </li>
             </ul>
         </div>
     </div>
+    <!-- Mobile menu end -->
 </header>
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </body>
