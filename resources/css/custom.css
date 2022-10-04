@@ -40,9 +40,23 @@ header {
 }
 
 .splide__pagination {
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
 }
 
 .splide__pagination__page {
     background-color: #9ca3af;
+}
+
+.splide__arrow {
+    display: none;
+}
+
+@media (min-width: 640px) {
+    .splide__pagination {
+        padding-bottom: 1rem;
+    }
+
+    .splide__arrow {
+        display: block
+    }
 }
