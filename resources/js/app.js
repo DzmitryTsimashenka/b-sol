@@ -3,35 +3,36 @@
         var splide = new Splide(".splide", {});
         splide.mount();
 
-        splide.on("move", (newIndex) => {
-            const nextSlideTitle = `slide-title-${newIndex}`;
-            const nextSlideDescription = `slide-description-${newIndex}`;
+        splide.on("move", (newIndex, prevIndex) => {
+            if (newIndex === prevIndex) return;
 
-            const slideTitle = document.getElementById(nextSlideTitle);
-            const slideDescription = document.getElementById(nextSlideDescription);
+            const slideTitle = `slide-title-${newIndex}`;
+            const slideDescription = `slide-description-${newIndex}`;
 
-            slideTitle.classList.add("hidden");
-            slideDescription.classList.add("hidden");
+            const titleEl = document.getElementById(slideTitle);
+            const descriptionEl = document.getElementById(slideDescription);
+
+            titleEl.classList.add("hidden");
+            descriptionEl.classList.add("hidden");
         });
 
-        splide.on("moved", (newIndex) => {
-            const nextSlideTitle = `slide-title-${newIndex}`;
-            const nextSlideDescription = `slide-description-${newIndex}`;
+        splide.on("moved", (newIndex, prevIndex) => {
+            if (newIndex === prevIndex) return;
 
-            const slideTitle = document.getElementById(nextSlideTitle);
-            const slideDescription = document.getElementById(nextSlideDescription);
+            const slideTitle = `slide-title-${newIndex}`;
+            const slideDescription = `slide-description-${newIndex}`;
 
-            slideTitle.classList.remove("hidden");
-            slideTitle.classList.add("animate__bounceInLeft");
-            slideTitle.addEventListener("animationend", () => {
-                slideTitle.classList.remove("animate__bounceInLeft");
-            });
+            const titleEl = document.getElementById(slideTitle);
+            const descriptionEl = document.getElementById(slideDescription);
 
-            slideDescription.classList.remove("hidden");
-            slideDescription.classList.add("animate__bounceInRight");
-            slideDescription.addEventListener("animationend", () => {
-                slideDescription.classList.remove("animate__bounceInRight");
-            });
+            titleEl.classList.remove("hidden");
+            descriptionEl.classList.remove("hidden");
+
+            titleEl.classList.add("animate__bounceInLeft");
+            descriptionEl.classList.add("animate__bounceInRight");
+
+            titleEl.addEventListener("animationend", () => titleEl.classList.remove("animate__bounceInLeft"), {once: true});
+            descriptionEl.addEventListener("animationend", () => descriptionEl.classList.remove("animate__bounceInRight"), {once: true});
         });
     });
 })();

@@ -675,19 +675,14 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .pl-4 {
@@ -697,21 +692,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
 }
 
 .text-5xl {
@@ -732,10 +712,6 @@ video {
   font-weight: 800;
 }
 
-.font-light {
-  font-weight: 300;
-}
-
 .leading-9 {
   line-height: 2.25rem;
 }
@@ -743,11 +719,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-pink-600 {
-  --tw-text-opacity: 1;
-  color: rgb(219 39 119 / var(--tw-text-opacity));
 }
 
 .text-sky-600 {
@@ -813,6 +784,54 @@ header {
 
 .mobile-menu ul li:hover ul {
   display: block;
+}
+
+.buttons {
+  display: inline;
+  opacity: 1;
+  visibility: visible;
+}
+
+.green-button {
+  display: inline;
+  float: left;
+  margin-right: 20px;
+}
+
+.orange-button {
+  animation: fadeInUp .8s;
+  animation-delay: .3s;
+  opacity: 1;
+}
+
+.orange-button a:hover {
+  opacity: 0.9;
+}
+
+.green-button a {
+  font-size: 14px;
+  color: #fff;
+  background-color: #43ba7f;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all .3s;
+}
+
+.orange-button a {
+  font-size: 14px;
+  color: #fff;
+  background-color: #ff511a;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  transition: all .3s;
 }
 
 .hover\:text-white:hover {
