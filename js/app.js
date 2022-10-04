@@ -31,10 +31,10 @@
         buttonsEl.classList.remove("hidden");
         titleEl.classList.add("animate__bounceInLeft");
         descriptionEl.classList.add("animate__bounceInRight");
-        buttonsEl.classList.add("animate__fadeInUpBig");
+        buttonsEl.classList.add("animate__bounceInUp");
         titleEl.addEventListener("animationend", () => titleEl.classList.remove("animate__bounceInLeft"), { once: true });
         descriptionEl.addEventListener("animationend", () => descriptionEl.classList.remove("animate__bounceInRight"), { once: true });
-        buttonsEl.addEventListener("animationend", () => buttonsEl.classList.remove("animate__fadeInUpBig"), { once: true });
+        buttonsEl.addEventListener("animationend", () => buttonsEl.classList.remove("animate__bounceInUp"), { once: true });
       });
     });
   })();

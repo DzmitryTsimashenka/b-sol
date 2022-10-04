@@ -35,50 +35,14 @@ header {
     display: block;
 }
 
-/*.buttons {*/
-/*    display: inline;*/
-/*    opacity: 1;*/
-/*    visibility: visible;*/
-/*}*/
+.splide {
+    height: calc(100vh - 80px);
+}
 
-/*.green-button {*/
-/*    display: inline;*/
-/*    float: left;*/
-/*    margin-right: 20px;*/
-/*}*/
+.splide__pagination {
+    padding-bottom: 1rem;
+}
 
-/*.orange-button {*/
-/*    animation: fadeInUp .8s;*/
-/*    animation-delay: .3s;*/
-/*    opacity: 1;*/
-/*}*/
-
-/*.orange-button a:hover {*/
-/*    opacity: 0.9;*/
-/*}*/
-
-/*.green-button a {*/
-/*    font-size: 14px;*/
-/*    color: #fff;*/
-/*    background-color: #43ba7f;*/
-/*    padding: 12px 30px;*/
-/*    display: inline-block;*/
-/*    border-radius: 5px;*/
-/*    font-weight: 500;*/
-/*    text-transform: capitalize;*/
-/*    letter-spacing: 0.5px;*/
-/*    transition: all .3s;*/
-/*}*/
-
-/*.orange-button a {*/
-/*    font-size: 14px;*/
-/*    color: #fff;*/
-/*    background-color: #ff511a;*/
-/*    padding: 12px 30px;*/
-/*    display: inline-block;*/
-/*    border-radius: 5px;*/
-/*    font-weight: 500;*/
-/*    text-transform: capitalize;*/
-/*    letter-spacing: 0.5px;*/
-/*    transition: all .3s;*/
-/*}*/
+.splide__pagination__page {
+    background-color: #9ca3af;
+}
