@@ -1,5 +1,6 @@
 html {
     font-family: 'Comfortaa';
+    scroll-behavior: smooth;
 }
 
 /*header {*/

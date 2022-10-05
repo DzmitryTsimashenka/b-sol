@@ -12,7 +12,7 @@
     <title>B Sol</title>
 </head>
 <body>
-<header class="bg-sky-900" x-data="{ open: false }">
+<header id="home" class="bg-sky-900" x-data="{ open: false }">
     <nav class="container mx-auto px-4 py-2 flex content-center justify-between">
         <div class="logo">
             <a href="/" class="logo block">
@@ -21,10 +21,10 @@
         </div>
         <nav class="hidden lg:block navigation">
             <ul class="flex items-center list h-full">
-                <li><a class="block p-4 text-white text-sm" href="/">Главная</a></li>
-                <li><a class="block p-4 text-white text-sm active" href="/">Наши работы</a></li>
-                <li><a class="block p-4 text-white text-sm" href="/">Наш инструмент</a></li>
-                <li><a class="block p-4 text-white text-sm" href="/">Контакты</a></li>
+                <li><a class="block p-4 text-white text-sm" href="#home">Главная</a></li>
+                <li><a class="block p-4 text-white text-sm active" href="#our-work">Наши работы</a></li>
+                <li><a class="block p-4 text-white text-sm" href="#our-tools">Наш инструмент</a></li>
+                <li><a class="block p-4 text-white text-sm" href="#contacts">Контакты</a></li>
             </ul>
         </nav>
         <button
@@ -53,7 +53,7 @@
                 <li class="border-b-2 border-orange-300 hover:text-white pl-4">
                     <a
                         x-on:click="open = !open"
-                        href="#"
+                        href="#home"
                         class="block"
                     >
                         Главная
@@ -63,7 +63,7 @@
                 <li class="border-b-2 border-orange-300 hover:text-white pl-4">
                     <a
                         x-on:click="open = !open"
-                        href="#"
+                        href="#our-work"
                         class="block"
                     >
                         Наши работы
@@ -73,7 +73,7 @@
                 <li class="border-b-2 border-orange-300 hover:text-white pl-4">
                     <a
                         x-on:click="open = !open"
-                        href="#"
+                        href="#our-tools"
                         class="block"
                     >
                         Наш инструмент
@@ -83,7 +83,7 @@
                 <li class="border-b-2 border-orange-300 hover:text-white pl-4">
                     <a
                         x-on:click="open = !open"
-                        href="#"
+                        href="#contacts"
                         class="block"
                     >
                         Контакты
@@ -228,7 +228,7 @@
     </section>
     <section class="bg-sky-900">
         <div class="container mx-auto py-4 px-4">
-            <h1 class="text-white font-bold text-3xl">
+            <h1 id="our-work" class="text-white font-bold text-3xl">
                 # НАШИ РАБОТЫ
             </h1>
         </div>
@@ -435,7 +435,7 @@
     </section>
     <section class="bg-sky-900">
         <div class="container mx-auto py-4 px-4">
-            <h1 class="text-white font-bold text-3xl">
+            <h1 id="our-tools" class="text-white font-bold text-3xl">
                 # НАШ ИНСТРУМЕНТ
             </h1>
         </div>
@@ -507,7 +507,7 @@
     </section>
     <section class="bg-sky-900">
         <div class="container mx-auto py-4 px-4">
-            <h1 class="text-white font-bold text-3xl">
+            <h1 id="contacts" class="text-white font-bold text-3xl">
                 # НАША КОММАНДА
             </h1>
         </div>
@@ -552,8 +552,8 @@
                         <img src="images/dummy/avatar2.png" class="max-w-full h-auto mx-auto rounded-full bg-gray-50 grayscale" alt="title image">
                     </div>
                     <div class="pt-6 text-center">
-                        <p class="text-lg leading-normal font-bold mb-1">Заяц NoName</p>
-                        <p class="text-gray-500 leading-relaxed font-light">CoFounder</p>
+                        <p class="text-lg leading-normal font-bold mb-1">Заяц Олег</p>
+                        <p class="text-gray-500 leading-relaxed font-light">Co Founder</p>
                         <!-- social icon -->
                         <div class="mt-2 mb-5 space-x-2">
                             <a class="hover:text-blue-700" aria-label="Twitter link" href="#">
