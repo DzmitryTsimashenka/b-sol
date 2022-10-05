@@ -16,7 +16,7 @@
           back_to_top.classList.add("hidden");
         };
         var defaults = {
-          duration: 400,
+          duration: 100,
           easing: function easing(t, b, c, d) {
             return -c * (t /= d) * (t - 2) + b;
           },
@@ -77,7 +77,7 @@
             scroll_a[i].addEventListener("click", function() {
               animatedScrollTo({
                 easing: easeInQuint,
-                duration: 800
+                duration: 100
               });
             });
           }
