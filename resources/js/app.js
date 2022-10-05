@@ -1,46 +1,67 @@
 (() => {
     document.addEventListener("DOMContentLoaded", function() {
-        var splide = new Splide(".splide", {});
-        splide.mount();
+        // Lightbox.
+        const myLightbox = () => {
+            const lightbox_class = document.querySelector(".glightbox3");
 
-        splide.on("move", (newIndex, prevIndex) => {
-            if (newIndex === prevIndex) return;
+            if ( lightbox_class != null) {
+                console.log({lightbox_class})
+                const lightbox = GLightbox({
+                    selector: ".glightbox3",
+                    touchNavigation: true,
+                    loop: true,
+                    autoplayVideos: true
+                });
+            }
+        }
 
-            const slideTitle = `slide-title-${newIndex}`;
-            const slideDescription = `slide-description-${newIndex}`;
-            const slideButtons = `slide-buttons-${newIndex}`;
+        // Splide.
+        const mySplide = () => {
+            const splide = new Splide(".splide", {});
+            splide.mount();
 
-            const titleEl = document.getElementById(slideTitle);
-            const descriptionEl = document.getElementById(slideDescription);
-            const buttonsEl = document.getElementById(slideButtons);
+            splide.on("move", (newIndex, prevIndex) => {
+                if (newIndex === prevIndex) return;
 
-            titleEl.classList.add("hidden");
-            descriptionEl.classList.add("hidden");
-            buttonsEl.classList.add("hidden");
-        });
+                const slideTitle = `slide-title-${newIndex}`;
+                const slideDescription = `slide-description-${newIndex}`;
+                const slideButtons = `slide-buttons-${newIndex}`;
 
-        splide.on("moved", (newIndex, prevIndex) => {
-            if (newIndex === prevIndex) return;
+                const titleEl = document.getElementById(slideTitle);
+                const descriptionEl = document.getElementById(slideDescription);
+                const buttonsEl = document.getElementById(slideButtons);
 
-            const slideTitle = `slide-title-${newIndex}`;
-            const slideDescription = `slide-description-${newIndex}`;
-            const slideButtons = `slide-buttons-${newIndex}`;
+                titleEl.classList.add("hidden");
+                descriptionEl.classList.add("hidden");
+                buttonsEl.classList.add("hidden");
+            });
 
-            const titleEl = document.getElementById(slideTitle);
-            const descriptionEl = document.getElementById(slideDescription);
-            const buttonsEl = document.getElementById(slideButtons);
+            splide.on("moved", (newIndex, prevIndex) => {
+                if (newIndex === prevIndex) return;
 
-            titleEl.classList.remove("hidden");
-            descriptionEl.classList.remove("hidden");
-            buttonsEl.classList.remove("hidden");
+                const slideTitle = `slide-title-${newIndex}`;
+                const slideDescription = `slide-description-${newIndex}`;
+                const slideButtons = `slide-buttons-${newIndex}`;
 
-            titleEl.classList.add("animate__bounceInLeft");
-            descriptionEl.classList.add("animate__bounceInRight");
-            buttonsEl.classList.add("animate__bounceInUp");
+                const titleEl = document.getElementById(slideTitle);
+                const descriptionEl = document.getElementById(slideDescription);
+                const buttonsEl = document.getElementById(slideButtons);
 
-            titleEl.addEventListener("animationend", () => titleEl.classList.remove("animate__bounceInLeft"), {once: true});
-            descriptionEl.addEventListener("animationend", () => descriptionEl.classList.remove("animate__bounceInRight"), {once: true});
-            buttonsEl.addEventListener("animationend", () => buttonsEl.classList.remove("animate__bounceInUp"), {once: true});
-        });
+                titleEl.classList.remove("hidden");
+                descriptionEl.classList.remove("hidden");
+                buttonsEl.classList.remove("hidden");
+
+                titleEl.classList.add("animate__bounceInLeft");
+                descriptionEl.classList.add("animate__bounceInRight");
+                buttonsEl.classList.add("animate__bounceInUp");
+
+                titleEl.addEventListener("animationend", () => titleEl.classList.remove("animate__bounceInLeft"), {once: true});
+                descriptionEl.addEventListener("animationend", () => descriptionEl.classList.remove("animate__bounceInRight"), {once: true});
+                buttonsEl.addEventListener("animationend", () => buttonsEl.classList.remove("animate__bounceInUp"), {once: true});
+            });
+        }
+
+        mySplide();
+        myLightbox();
     });
 })();
