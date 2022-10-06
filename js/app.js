@@ -1,5 +1,96 @@
 (() => {
   // resources/js/app.js
+  var minskArenaElements = [
+    {
+      "href": "images/dummy/img3.jpg",
+      "type": "image",
+      "title": "My Title",
+      "description": "Example"
+    },
+    {
+      "href": "images/dummy/img2.jpg",
+      "type": "image",
+      "alt": "image text alternatives"
+    },
+    {
+      "href": "images/dummy/img1.jpg",
+      "type": "image",
+      "alt": "image text alternatives"
+    }
+  ];
+  var tdEkvatorElements = [
+    {
+      "href": "images/dummy/img4.jpg",
+      "type": "image",
+      "title": "My Title",
+      "description": "Example"
+    },
+    {
+      "href": "images/dummy/img5.jpg",
+      "type": "image",
+      "alt": "image text alternatives"
+    },
+    {
+      "href": "images/dummy/img6.jpg",
+      "type": "image",
+      "alt": "image text alternatives"
+    }
+  ];
+  var minskMirElements = [
+    {
+      "href": "images/dummy/img7.jpg",
+      "type": "image",
+      "title": "My Title",
+      "description": "Example"
+    },
+    {
+      "href": "images/dummy/img8.jpg",
+      "type": "image",
+      "alt": "image text alternatives"
+    },
+    {
+      "href": "images/dummy/img9.jpg",
+      "type": "image",
+      "alt": "image text alternatives"
+    },
+    {
+      "href": "images/dummy/img10.jpg",
+      "type": "image",
+      "alt": "image text alternatives"
+    }
+  ];
+  var kobrinElements = [
+    {
+      "href": "images/dummy/img4.jpg",
+      "type": "image",
+      "title": "My Title",
+      "description": "Example"
+    },
+    {
+      "href": "images/dummy/img2.jpg",
+      "type": "image",
+      "alt": "image text alternatives"
+    },
+    {
+      "href": "images/dummy/img6.jpg",
+      "type": "image",
+      "alt": "image text alternatives"
+    },
+    {
+      "href": "images/dummy/img7.jpg",
+      "type": "image",
+      "alt": "image text alternatives"
+    }
+  ];
+  var createGalleryFromBlock = (block, elements) => {
+    if (block !== null) {
+      block.addEventListener("click", function(event) {
+        event.preventDefault();
+        const gallery = GLightbox({ elements });
+        gallery.open();
+      });
+    }
+  };
   (() => {
     document.addEventListener("DOMContentLoaded", function() {
       const myBackToTop = function() {
@@ -95,16 +186,13 @@
         });
       };
       const myLightbox = () => {
-        const lightbox_class = document.querySelector(".glightbox3");
-        if (lightbox_class != null) {
-          console.log({ lightbox_class });
-          const lightbox = GLightbox({
-            selector: ".glightbox3",
-            touchNavigation: true,
-            loop: true,
-            autoplayVideos: true
-          });
-        }
+        const galleries = [
+          { gallery: document.querySelector(".minsk-arena"), elements: minskArenaElements },
+          { gallery: document.querySelector(".td-ekvator"), elements: tdEkvatorElements },
+          { gallery: document.querySelector(".minsk-mir"), elements: minskMirElements },
+          { gallery: document.querySelector(".kobrin"), elements: kobrinElements }
+        ];
+        galleries.map((item) => createGalleryFromBlock(item.gallery, item.elements));
       };
       const mySplide = () => {
         const splide = new Splide(".splide", {});
