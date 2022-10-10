@@ -213,9 +213,13 @@ const createGalleryFromBlock = (block, elements) => {
 
         // Splide.
         const mySplide = () => {
-            const splide = new Splide(".splide", {});
+            const splide = new Splide(".splide", {
+                width : '100vw',
+                height: '100vh',
+                lazyLoad: "sequential",
+            });
             splide.mount();
-
+            return;
             splide.on("move", (newIndex, prevIndex) => {
                 if (newIndex === prevIndex) return;
 
