@@ -104,10 +104,65 @@
         <div class="splide__track h-full">
             <ul class="splide__list">
                 <li class="splide__slide">
+                    <div class="absolute p-6 md:p-12">
+                        <h1
+                                id="slide-title-0"
+                                class="text-orange-500 text-6xl font-extrabold py-4 animate__animated"
+                        >
+                            ЖК КАИР
+                        </h1>
+                        <p
+                                id="slide-description-0"
+                                class="text-white text-4xl font-bold py-4 animate__animated"
+                        >
+                            Дело в том, что Lorem Ipsum — это стандарт, который возник еще очень давно, и секрет его магической привлекательности прост.
+                        </p>
+                        <div  id="slide-buttons-0"
+                              class="buttons flex gap-3 pt-4 animate__animated"
+                        >
+                            <div class="green-button bg-sky-900 rounded-md py-2 px-4">
+                                <a href="#">Подробнее</a>
+                            </div>
+                            <div class="orange-button bg-orange-500 rounded-md py-2 px-4">
+                                <a href="#">Контакты</a>
+                            </div>
+                        </div>
+                    </div>
                     <img
                             data-splide-lazy-srcset="images/slider/slide-1-350.webp 600w, images/slider/slide-1.webp 1024w"
                             sizes="100vw"
-                            alt="cat 11"
+                            alt="Минск-Мир"
+                    >
+                </li>
+                <li class="splide__slide">
+                    <div class="absolute p-6 md:p-12">
+                        <h1
+                                id="slide-title-1"
+                                class="text-orange-500 text-6xl font-extrabold py-4 animate__animated"
+                        >
+                            ЖК КАИР
+                        </h1>
+                        <p
+                                id="slide-description-1"
+                                class="text-white text-4xl font-bold py-4 animate__animated"
+                        >
+                            Дело в том, что Lorem Ipsum — это стандарт, который возник еще очень давно, и секрет его магической привлекательности прост.
+                        </p>
+                        <div  id="slide-buttons-1"
+                              class="buttons flex gap-1.5 pt-4 animate__animated"
+                        >
+                            <div class="green-button bg-green-500 rounded-md py-2 px-4">
+                                <a href="#">Подробнее</a>
+                            </div>
+                            <div class="orange-button bg-orange-500 rounded-md py-2 px-4">
+                                <a href="#">Контакты</a>
+                            </div>
+                        </div>
+                    </div>
+                    <img
+                            data-splide-lazy-srcset="images/slider/slide-1-350.webp 600w, images/slider/slide-1.webp 1024w"
+                            sizes="100vw"
+                            alt="ЖК Каир"
                     >
                 </li>
             </ul>
@@ -176,42 +231,97 @@
     <section class="bg-gray-500">
         <div class="container mx-auto pt-4">
             <div class="flex flex-wrap flex-row justify-center">
-                <figure class="flex-shrink max-w-full px-4 w-full sm:w-1/2 lg:w-1/5 group ">
+                <figure class="flex-shrink max-w-full px-4 w-full sm:w-1/2 lg:w-1/5 group">
                     <div class="relative overflow-hidden cursor-pointer mb-6">
-                        <a href="#" class="minsk-arena">
-                            <img class="block w-full h-auto md:transform md:duration-500 md:hover:scale-125" src="images/dummy/img1.jpg" alt="Image Description">
+                        <a href="#" class="diamond-crowns">
+                            <picture>
+                                <source media="(max-width: 425px)" srcset="images/diamond-crowns/diamond-crowns-400w.webp">
+                                <source media="(max-width: 640px)" srcset="images/diamond-crowns/diamond-crowns-640w.webp">
+                                <source media="(min-width: 641px)" srcset="images/diamond-crowns/diamond-crowns-320w.webp">
+                                <img
+                                      src="images/diamond-crowns/diamond-crowns-640w.webp"
+                                      class="block w-full md:transform md:duration-500 md:hover:scale-125"
+                                      alt="Алмазные коронки для плитки"
+                                >
+                            </picture>
                             <div class="absolute inset-x-0 bottom-0 ease-in overflow-hidden px-4 py-2 opacity-50 text-gray-100 bg-black text-center">
-                                <h3 class="text-base leading-normal font-semibold text-white">Ведро</h3>
+                                <h3 class="text-base leading-normal font-semibold text-white">Алмазные коронки</h3>
                             </div>
                         </a>
                     </div>
                 </figure>
-                <figure class="flex-shrink max-w-full px-4 w-full sm:w-1/2 lg:w-1/5 group wow fadeInUp" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <figure class="flex-shrink max-w-full px-4 w-full sm:w-1/2 lg:w-1/5 group">
                     <div class="relative overflow-hidden cursor-pointer mb-6">
-                        <a href="#" class="td-ekvator">
-                            <img class="block w-full h-auto md:transform md:duration-500 md:hover:scale-125" src="images/dummy/img2.jpg" alt="Image Description">
-                            <div class="absolute inset-x-0 bottom-0 overflow-hidden px-4 py-2 opacity-50 text-gray-100 bg-black text-center">
-                                <h3 class="text-base leading-normal font-semibold text-white">Лопата</h3>
+                        <a href="#" class="airless-paint">
+                            <picture>
+                                <source media="(max-width: 425px)" srcset="images/airless-paint/airless-paint-400w.webp">
+                                <source media="(max-width: 640px)" srcset="images/airless-paint/airless-paint-640w.webp">
+                                <source media="(min-width: 641px)" srcset="images/airless-paint/airless-paint-320w.webp">
+                                <img
+                                        src="images/airless-paint/airless-paint-640w.webp"
+                                        class="block w-full md:transform md:duration-500 md:hover:scale-125"
+                                        alt="Безвоздушный окрасочный аппарат HVBAN"
+                                >
+                            </picture>
+                            <div class="absolute inset-x-0 bottom-0 ease-in overflow-hidden px-4 py-2 opacity-50 text-gray-100 bg-black text-center">
+                                <h3 class="text-base leading-normal font-semibold text-white">Окрасочный аппарат HVBAN</h3>
                             </div>
                         </a>
                     </div>
                 </figure>
-                <figure class="flex-shrink max-w-full px-4 w-full sm:w-1/2 lg:w-1/5 group wow fadeInUp" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <figure class="flex-shrink max-w-full px-4 w-full sm:w-1/2 lg:w-1/5 group">
                     <div class="relative overflow-hidden cursor-pointer mb-6">
-                        <a href="#" class="minsk-mir">
-                            <img class="block w-full h-auto md:transform md:duration-500 md:hover:scale-125" src="images/dummy/img3.jpg" alt="Image Description">
-                            <div class="absolute inset-x-0 bottom-0 overflow-hidden px-4 py-2 opacity-50 text-gray-100 bg-black text-center">
-                                <h3 class="text-base leading-normal font-semibold text-white">Кирка</h3>
+                        <a href="#" class="spatulas">
+                            <picture>
+                                <source media="(max-width: 425px)" srcset="images/spatulas/spatulas-400w.webp">
+                                <source media="(max-width: 640px)" srcset="images/spatulas/spatulas-640w.webp">
+                                <source media="(min-width: 641px)" srcset="images/spatulas/spatulas-320w.webp">
+                                <img
+                                        src="images/spatulas/spatulas-640w.webp"
+                                        class="block w-full md:transform md:duration-500 md:hover:scale-125"
+                                        alt="Набор шпателей"
+                                >
+                            </picture>
+                            <div class="absolute inset-x-0 bottom-0 ease-in overflow-hidden px-4 py-2 opacity-50 text-gray-100 bg-black text-center">
+                                <h3 class="text-base leading-normal font-semibold text-white">Набор шпателей</h3>
                             </div>
                         </a>
                     </div>
                 </figure>
-                <figure class="flex-shrink max-w-full px-4 w-full sm:w-1/2 lg:w-1/5 group wow fadeInUp" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <figure class="flex-shrink max-w-full px-4 w-full sm:w-1/2 lg:w-1/5 group">
                     <div class="relative overflow-hidden cursor-pointer mb-6">
-                        <a href="#" class="kobrin">
-                            <img class="block w-full h-auto md:transform md:duration-500 md:hover:scale-125" src="images/dummy/img4.jpg" alt="Image Description">
-                            <div class="absolute inset-x-0 bottom-0 overflow-hidden px-4 py-2 opacity-50 text-gray-100 bg-black text-center">
-                                <h3 class="text-base leading-normal font-semibold text-white">Перфоратор</h3>
+                        <a href="#" class="tile-cutter">
+                            <picture>
+                                <source media="(max-width: 425px)" srcset="images/tile-cutter/tile-cutter-400w.webp">
+                                <source media="(max-width: 640px)" srcset="images/tile-cutter/tile-cutter-640w.webp">
+                                <source media="(min-width: 641px)" srcset="images/tile-cutter/tile-cutter-320w.webp">
+                                <img
+                                        src="images/tile-cutter/tile-cutter-640w.webp"
+                                        class="block w-full md:transform md:duration-500 md:hover:scale-125"
+                                        alt="Плиткорез DLT PROLINE"
+                                >
+                            </picture>
+                            <div class="absolute inset-x-0 bottom-0 ease-in overflow-hidden px-4 py-2 opacity-50 text-gray-100 bg-black text-center">
+                                <h3 class="text-base leading-normal font-semibold text-white">Плиткорез DLT PROLINE</h3>
+                            </div>
+                        </a>
+                    </div>
+                </figure>
+                <figure class="flex-shrink max-w-full px-4 w-full sm:w-1/2 lg:w-1/5 group">
+                    <div class="relative overflow-hidden cursor-pointer mb-6">
+                        <a href="#" class="karcher">
+                            <picture>
+                                <source media="(max-width: 425px)" srcset="images/karcher/karcher-400w.webp">
+                                <source media="(max-width: 640px)" srcset="images/karcher/karcher-640w.webp">
+                                <source media="(min-width: 641px)" srcset="images/karcher/karcher-320w.webp">
+                                <img
+                                        src="images/karcher/karcher-640w.webp"
+                                        class="block w-full md:transform md:duration-500 md:hover:scale-125"
+                                        alt="Пылесос Karcher"
+                                >
+                            </picture>
+                            <div class="absolute inset-x-0 bottom-0 ease-in overflow-hidden px-4 py-2 opacity-50 text-gray-100 bg-black text-center">
+                                <h3 class="text-base leading-normal font-semibold text-white">Пылесос Karcher</h3>
                             </div>
                         </a>
                     </div>
@@ -417,7 +527,7 @@
         </svg>
     </a>
 </main>
-<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<script defer src="js/alpine.min.js"></script>
 <script src="js/glightbox.min.js"></script>
 <script src="js/splide.min.js"></script>
 <script defer src="js/app.js"></script>

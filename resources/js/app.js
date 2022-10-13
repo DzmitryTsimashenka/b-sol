@@ -4,6 +4,7 @@ const minskArenaElements = [
         'type': 'image',
         'title': 'My Title',
         'description': 'Example',
+        'alt': 'Alt Image',
     },
     {
         'href': 'images/dummy/img2.jpg',
@@ -22,6 +23,7 @@ const tdEkvatorElements = [
         'type': 'image',
         'title': 'My Title',
         'description': 'Example',
+        'alt': 'Alt Image',
     },
     {
         'href': 'images/dummy/img5.jpg',
@@ -40,6 +42,7 @@ const minskMirElements = [
         'type': 'image',
         'title': 'My Title',
         'description': 'Example',
+        'alt': 'Alt Image',
     },
     {
         'href': 'images/dummy/img8.jpg',
@@ -63,6 +66,7 @@ const kobrinElements = [
         'type': 'image',
         'title': 'My Title',
         'description': 'Example',
+        'alt': 'Alt Image',
     },
     {
         'href': 'images/dummy/img2.jpg',
@@ -78,6 +82,180 @@ const kobrinElements = [
         'href': 'images/dummy/img7.jpg',
         'type': 'image',
         'alt': 'image text alternatives'
+    },
+];
+
+const diamondCrownsElements = [
+    {
+        'href': 'images/diamond-crowns/diamond-crowns-640w.webp',
+        'type': 'image',
+        'title': 'Алмазные коронки DLT для плитки',
+        'alt': 'Алмазные коронки DLT для плитки',
+    },
+    {
+        'href': 'images/diamond-crowns/diamond-crowns-1-640w.webp',
+        'type': 'image',
+        'title': 'Алмазные коронки DLT для плитки',
+        'alt': 'Алмазные коронки DLT для плитки',
+    },
+];
+const airlessPaintElements = [
+    {
+        'href': 'images/airless-paint/airless-paint-640w.webp',
+        'type': 'image',
+        'title': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+        'alt': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+    },
+    {
+        'href': 'images/airless-paint/airless-paint-1-640w.webp',
+        'type': 'image',
+        'title': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+        'alt': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+    },
+    {
+        'href': 'images/airless-paint/airless-paint-2-640w.webp',
+        'type': 'image',
+        'title': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+        'alt': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+    },
+    {
+        'href': 'images/airless-paint/airless-paint-3-640w.webp',
+        'type': 'image',
+        'title': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+        'alt': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+    },
+    {
+        'href': 'images/airless-paint/airless-paint-4-640w.webp',
+        'type': 'image',
+        'title': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+        'alt': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+    },
+    {
+        'href': 'images/airless-paint/airless-paint-5-640w.webp',
+        'type': 'image',
+        'title': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+        'alt': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+    },
+    {
+        'href': 'images/airless-paint/airless-paint-6-640w.webp',
+        'type': 'image',
+        'title': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+        'alt': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+    },
+    {
+        'href': 'images/airless-paint/airless-paint-7-640w.webp',
+        'type': 'image',
+        'title': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+        'alt': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+    },
+    {
+        'href': 'images/airless-paint/airless-paint-8-640w.webp',
+        'type': 'image',
+        'title': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+        'alt': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+    },
+];
+const spatulasElements = [
+    {
+        'href': 'images/spatulas/spatulas-640w.webp',
+        'type': 'image',
+        'title': 'Финишный h-образный шпатель «DLT Finish SILVER»',
+        'alt': 'Финишный h-образный шпатель «DLT Finish SILVER»',
+    },
+    {
+        'href': 'images/spatulas/spatulas-1-640w.webp',
+        'type': 'image',
+        'title': 'Финишный h-образный шпатель «DLT Finish SILVER»',
+        'alt': 'Финишный h-образный шпатель «DLT Finish SILVER»',
+    },
+    {
+        'href': 'images/spatulas/spatulas-2-640w.webp',
+        'type': 'image',
+        'title': 'Финишный h-образный шпатель «DLT Finish SILVER»',
+        'alt': 'Финишный h-образный шпатель «DLT Finish SILVER»',
+    },
+    {
+        'href': 'images/spatulas/spatulas-3-640w.webp',
+        'type': 'image',
+        'title': 'Финишный h-образный шпатель «DLT Finish SILVER»',
+        'alt': 'Финишный h-образный шпатель «DLT Finish SILVER»',
+    },
+    {
+        'href': 'images/spatulas/spatulas-4-640w.webp',
+        'type': 'image',
+        'title': 'Финишный h-образный шпатель «DLT Finish SILVER»',
+        'alt': 'Финишный h-образный шпатель «DLT Finish SILVER»',
+    },
+    {
+        'href': 'images/spatulas/spatulas-5-640w.webp',
+        'type': 'image',
+        'title': 'Финишный h-образный шпатель «DLT Finish SILVER»',
+        'alt': 'Финишный h-образный шпатель «DLT Finish SILVER»',
+    },
+    {
+        'href': 'images/spatulas/spatulas-6-640w.webp',
+        'type': 'image',
+        'title': 'Финишный h-образный шпатель «DLT Finish SILVER»',
+        'alt': 'Финишный h-образный шпатель «DLT Finish SILVER»',
+    },
+    {
+        'href': 'images/spatulas/spatulas-7-640w.webp',
+        'type': 'image',
+        'title': 'Финишный h-образный шпатель «DLT Finish SILVER»',
+        'alt': 'Финишный h-образный шпатель «DLT Finish SILVER»',
+    },
+
+];
+const tileCutterElements = [
+    {
+        'href': 'images/tile-cutter/tile-cutter-640w.webp',
+        'type': 'image',
+        'title': 'Плиткорез DLT ProLine 800',
+        'alt': 'Плиткорез DLT ProLine 800',
+    },
+    {
+        'href': 'images/tile-cutter/tile-cutter-1-640w.webp',
+        'type': 'image',
+        'title': 'Плиткорез DLT ProLine 800',
+        'alt': 'Плиткорез DLT ProLine 800',
+    },
+    {
+        'href': 'images/tile-cutter/tile-cutter-2-640w.webp',
+        'type': 'image',
+        'title': 'Плиткорез DLT ProLine 800',
+        'alt': 'Плиткорез DLT ProLine 800',
+    },
+    {
+        'href': 'images/tile-cutter/tile-cutter-3-640w.webp',
+        'type': 'image',
+        'title': 'Плиткорез DLT ProLine 800',
+        'alt': 'Плиткорез DLT ProLine 800',
+    },
+    {
+        'href': 'images/tile-cutter/tile-cutter-4-640w.webp',
+        'type': 'image',
+        'title': 'Плиткорез DLT ProLine 800',
+        'alt': 'Плиткорез DLT ProLine 800',
+    },
+];
+const karcherElements = [
+    {
+        'href': 'images/karcher/karcher-640w.webp',
+        'type': 'image',
+        'title': 'ПЫЛЕСОС KARCHER WD 3 P',
+        'alt': 'ПЫЛЕСОС KARCHER WD 3 P',
+    },
+    {
+        'href': 'images/karcher/karcher-1-640w.webp',
+        'type': 'image',
+        'title': 'ПЫЛЕСОС KARCHER WD 3 P',
+        'alt': 'ПЫЛЕСОС KARCHER WD 3 P',
+    },
+    {
+        'href': 'images/karcher/karcher-2-640w.webp',
+        'type': 'image',
+        'title': 'ПЫЛЕСОС KARCHER WD 3 P',
+        'alt': 'ПЫЛЕСОС KARCHER WD 3 P',
     },
 ];
 
@@ -206,6 +384,11 @@ const createGalleryFromBlock = (block, elements) => {
                 { gallery: document.querySelector(".td-ekvator"), elements: tdEkvatorElements },
                 { gallery: document.querySelector(".minsk-mir"), elements: minskMirElements },
                 { gallery: document.querySelector(".kobrin"), elements: kobrinElements },
+                { gallery: document.querySelector(".diamond-crowns"), elements: diamondCrownsElements },
+                { gallery: document.querySelector(".airless-paint"), elements: airlessPaintElements },
+                { gallery: document.querySelector(".spatulas"), elements: spatulasElements },
+                { gallery: document.querySelector(".tile-cutter"), elements: tileCutterElements },
+                { gallery: document.querySelector(".karcher"), elements: karcherElements },
             ];
 
             galleries.map((item) => createGalleryFromBlock(item.gallery, item.elements))
@@ -219,7 +402,7 @@ const createGalleryFromBlock = (block, elements) => {
                 lazyLoad: "sequential",
             });
             splide.mount();
-            return;
+
             splide.on("move", (newIndex, prevIndex) => {
                 if (newIndex === prevIndex) return;
 

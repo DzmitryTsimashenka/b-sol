@@ -5,7 +5,8 @@
       "href": "images/dummy/img3.jpg",
       "type": "image",
       "title": "My Title",
-      "description": "Example"
+      "description": "Example",
+      "alt": "Alt Image"
     },
     {
       "href": "images/dummy/img2.jpg",
@@ -23,7 +24,8 @@
       "href": "images/dummy/img4.jpg",
       "type": "image",
       "title": "My Title",
-      "description": "Example"
+      "description": "Example",
+      "alt": "Alt Image"
     },
     {
       "href": "images/dummy/img5.jpg",
@@ -41,7 +43,8 @@
       "href": "images/dummy/img7.jpg",
       "type": "image",
       "title": "My Title",
-      "description": "Example"
+      "description": "Example",
+      "alt": "Alt Image"
     },
     {
       "href": "images/dummy/img8.jpg",
@@ -64,7 +67,8 @@
       "href": "images/dummy/img4.jpg",
       "type": "image",
       "title": "My Title",
-      "description": "Example"
+      "description": "Example",
+      "alt": "Alt Image"
     },
     {
       "href": "images/dummy/img2.jpg",
@@ -80,6 +84,178 @@
       "href": "images/dummy/img7.jpg",
       "type": "image",
       "alt": "image text alternatives"
+    }
+  ];
+  var diamondCrownsElements = [
+    {
+      "href": "images/diamond-crowns/diamond-crowns-640w.webp",
+      "type": "image",
+      "title": "\u0410\u043B\u043C\u0430\u0437\u043D\u044B\u0435 \u043A\u043E\u0440\u043E\u043D\u043A\u0438 DLT \u0434\u043B\u044F \u043F\u043B\u0438\u0442\u043A\u0438",
+      "alt": "\u0410\u043B\u043C\u0430\u0437\u043D\u044B\u0435 \u043A\u043E\u0440\u043E\u043D\u043A\u0438 DLT \u0434\u043B\u044F \u043F\u043B\u0438\u0442\u043A\u0438"
+    },
+    {
+      "href": "images/diamond-crowns/diamond-crowns-1-640w.webp",
+      "type": "image",
+      "title": "\u0410\u043B\u043C\u0430\u0437\u043D\u044B\u0435 \u043A\u043E\u0440\u043E\u043D\u043A\u0438 DLT \u0434\u043B\u044F \u043F\u043B\u0438\u0442\u043A\u0438",
+      "alt": "\u0410\u043B\u043C\u0430\u0437\u043D\u044B\u0435 \u043A\u043E\u0440\u043E\u043D\u043A\u0438 DLT \u0434\u043B\u044F \u043F\u043B\u0438\u0442\u043A\u0438"
+    }
+  ];
+  var airlessPaintElements = [
+    {
+      "href": "images/airless-paint/airless-paint-640w.webp",
+      "type": "image",
+      "title": "\u041F\u043E\u0440\u0448\u043D\u0435\u0432\u043E\u0439 \u0431\u0435\u0437\u0432\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439 \u043E\u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u0430\u043F\u043F\u0430\u0440\u0430\u0442 HVBAN",
+      "alt": "\u041F\u043E\u0440\u0448\u043D\u0435\u0432\u043E\u0439 \u0431\u0435\u0437\u0432\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439 \u043E\u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u0430\u043F\u043F\u0430\u0440\u0430\u0442 HVBAN"
+    },
+    {
+      "href": "images/airless-paint/airless-paint-1-640w.webp",
+      "type": "image",
+      "title": "\u041F\u043E\u0440\u0448\u043D\u0435\u0432\u043E\u0439 \u0431\u0435\u0437\u0432\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439 \u043E\u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u0430\u043F\u043F\u0430\u0440\u0430\u0442 HVBAN",
+      "alt": "\u041F\u043E\u0440\u0448\u043D\u0435\u0432\u043E\u0439 \u0431\u0435\u0437\u0432\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439 \u043E\u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u0430\u043F\u043F\u0430\u0440\u0430\u0442 HVBAN"
+    },
+    {
+      "href": "images/airless-paint/airless-paint-2-640w.webp",
+      "type": "image",
+      "title": "\u041F\u043E\u0440\u0448\u043D\u0435\u0432\u043E\u0439 \u0431\u0435\u0437\u0432\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439 \u043E\u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u0430\u043F\u043F\u0430\u0440\u0430\u0442 HVBAN",
+      "alt": "\u041F\u043E\u0440\u0448\u043D\u0435\u0432\u043E\u0439 \u0431\u0435\u0437\u0432\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439 \u043E\u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u0430\u043F\u043F\u0430\u0440\u0430\u0442 HVBAN"
+    },
+    {
+      "href": "images/airless-paint/airless-paint-3-640w.webp",
+      "type": "image",
+      "title": "\u041F\u043E\u0440\u0448\u043D\u0435\u0432\u043E\u0439 \u0431\u0435\u0437\u0432\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439 \u043E\u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u0430\u043F\u043F\u0430\u0440\u0430\u0442 HVBAN",
+      "alt": "\u041F\u043E\u0440\u0448\u043D\u0435\u0432\u043E\u0439 \u0431\u0435\u0437\u0432\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439 \u043E\u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u0430\u043F\u043F\u0430\u0440\u0430\u0442 HVBAN"
+    },
+    {
+      "href": "images/airless-paint/airless-paint-4-640w.webp",
+      "type": "image",
+      "title": "\u041F\u043E\u0440\u0448\u043D\u0435\u0432\u043E\u0439 \u0431\u0435\u0437\u0432\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439 \u043E\u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u0430\u043F\u043F\u0430\u0440\u0430\u0442 HVBAN",
+      "alt": "\u041F\u043E\u0440\u0448\u043D\u0435\u0432\u043E\u0439 \u0431\u0435\u0437\u0432\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439 \u043E\u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u0430\u043F\u043F\u0430\u0440\u0430\u0442 HVBAN"
+    },
+    {
+      "href": "images/airless-paint/airless-paint-5-640w.webp",
+      "type": "image",
+      "title": "\u041F\u043E\u0440\u0448\u043D\u0435\u0432\u043E\u0439 \u0431\u0435\u0437\u0432\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439 \u043E\u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u0430\u043F\u043F\u0430\u0440\u0430\u0442 HVBAN",
+      "alt": "\u041F\u043E\u0440\u0448\u043D\u0435\u0432\u043E\u0439 \u0431\u0435\u0437\u0432\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439 \u043E\u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u0430\u043F\u043F\u0430\u0440\u0430\u0442 HVBAN"
+    },
+    {
+      "href": "images/airless-paint/airless-paint-6-640w.webp",
+      "type": "image",
+      "title": "\u041F\u043E\u0440\u0448\u043D\u0435\u0432\u043E\u0439 \u0431\u0435\u0437\u0432\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439 \u043E\u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u0430\u043F\u043F\u0430\u0440\u0430\u0442 HVBAN",
+      "alt": "\u041F\u043E\u0440\u0448\u043D\u0435\u0432\u043E\u0439 \u0431\u0435\u0437\u0432\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439 \u043E\u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u0430\u043F\u043F\u0430\u0440\u0430\u0442 HVBAN"
+    },
+    {
+      "href": "images/airless-paint/airless-paint-7-640w.webp",
+      "type": "image",
+      "title": "\u041F\u043E\u0440\u0448\u043D\u0435\u0432\u043E\u0439 \u0431\u0435\u0437\u0432\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439 \u043E\u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u0430\u043F\u043F\u0430\u0440\u0430\u0442 HVBAN",
+      "alt": "\u041F\u043E\u0440\u0448\u043D\u0435\u0432\u043E\u0439 \u0431\u0435\u0437\u0432\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439 \u043E\u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u0430\u043F\u043F\u0430\u0440\u0430\u0442 HVBAN"
+    },
+    {
+      "href": "images/airless-paint/airless-paint-8-640w.webp",
+      "type": "image",
+      "title": "\u041F\u043E\u0440\u0448\u043D\u0435\u0432\u043E\u0439 \u0431\u0435\u0437\u0432\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439 \u043E\u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u0430\u043F\u043F\u0430\u0440\u0430\u0442 HVBAN",
+      "alt": "\u041F\u043E\u0440\u0448\u043D\u0435\u0432\u043E\u0439 \u0431\u0435\u0437\u0432\u043E\u0437\u0434\u0443\u0448\u043D\u044B\u0439 \u043E\u043A\u0440\u0430\u0441\u043E\u0447\u043D\u044B\u0439 \u0430\u043F\u043F\u0430\u0440\u0430\u0442 HVBAN"
+    }
+  ];
+  var spatulasElements = [
+    {
+      "href": "images/spatulas/spatulas-640w.webp",
+      "type": "image",
+      "title": "\u0424\u0438\u043D\u0438\u0448\u043D\u044B\u0439 h-\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u0439 \u0448\u043F\u0430\u0442\u0435\u043B\u044C \xABDLT Finish SILVER\xBB",
+      "alt": "\u0424\u0438\u043D\u0438\u0448\u043D\u044B\u0439 h-\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u0439 \u0448\u043F\u0430\u0442\u0435\u043B\u044C \xABDLT Finish SILVER\xBB"
+    },
+    {
+      "href": "images/spatulas/spatulas-1-640w.webp",
+      "type": "image",
+      "title": "\u0424\u0438\u043D\u0438\u0448\u043D\u044B\u0439 h-\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u0439 \u0448\u043F\u0430\u0442\u0435\u043B\u044C \xABDLT Finish SILVER\xBB",
+      "alt": "\u0424\u0438\u043D\u0438\u0448\u043D\u044B\u0439 h-\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u0439 \u0448\u043F\u0430\u0442\u0435\u043B\u044C \xABDLT Finish SILVER\xBB"
+    },
+    {
+      "href": "images/spatulas/spatulas-2-640w.webp",
+      "type": "image",
+      "title": "\u0424\u0438\u043D\u0438\u0448\u043D\u044B\u0439 h-\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u0439 \u0448\u043F\u0430\u0442\u0435\u043B\u044C \xABDLT Finish SILVER\xBB",
+      "alt": "\u0424\u0438\u043D\u0438\u0448\u043D\u044B\u0439 h-\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u0439 \u0448\u043F\u0430\u0442\u0435\u043B\u044C \xABDLT Finish SILVER\xBB"
+    },
+    {
+      "href": "images/spatulas/spatulas-3-640w.webp",
+      "type": "image",
+      "title": "\u0424\u0438\u043D\u0438\u0448\u043D\u044B\u0439 h-\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u0439 \u0448\u043F\u0430\u0442\u0435\u043B\u044C \xABDLT Finish SILVER\xBB",
+      "alt": "\u0424\u0438\u043D\u0438\u0448\u043D\u044B\u0439 h-\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u0439 \u0448\u043F\u0430\u0442\u0435\u043B\u044C \xABDLT Finish SILVER\xBB"
+    },
+    {
+      "href": "images/spatulas/spatulas-4-640w.webp",
+      "type": "image",
+      "title": "\u0424\u0438\u043D\u0438\u0448\u043D\u044B\u0439 h-\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u0439 \u0448\u043F\u0430\u0442\u0435\u043B\u044C \xABDLT Finish SILVER\xBB",
+      "alt": "\u0424\u0438\u043D\u0438\u0448\u043D\u044B\u0439 h-\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u0439 \u0448\u043F\u0430\u0442\u0435\u043B\u044C \xABDLT Finish SILVER\xBB"
+    },
+    {
+      "href": "images/spatulas/spatulas-5-640w.webp",
+      "type": "image",
+      "title": "\u0424\u0438\u043D\u0438\u0448\u043D\u044B\u0439 h-\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u0439 \u0448\u043F\u0430\u0442\u0435\u043B\u044C \xABDLT Finish SILVER\xBB",
+      "alt": "\u0424\u0438\u043D\u0438\u0448\u043D\u044B\u0439 h-\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u0439 \u0448\u043F\u0430\u0442\u0435\u043B\u044C \xABDLT Finish SILVER\xBB"
+    },
+    {
+      "href": "images/spatulas/spatulas-6-640w.webp",
+      "type": "image",
+      "title": "\u0424\u0438\u043D\u0438\u0448\u043D\u044B\u0439 h-\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u0439 \u0448\u043F\u0430\u0442\u0435\u043B\u044C \xABDLT Finish SILVER\xBB",
+      "alt": "\u0424\u0438\u043D\u0438\u0448\u043D\u044B\u0439 h-\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u0439 \u0448\u043F\u0430\u0442\u0435\u043B\u044C \xABDLT Finish SILVER\xBB"
+    },
+    {
+      "href": "images/spatulas/spatulas-7-640w.webp",
+      "type": "image",
+      "title": "\u0424\u0438\u043D\u0438\u0448\u043D\u044B\u0439 h-\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u0439 \u0448\u043F\u0430\u0442\u0435\u043B\u044C \xABDLT Finish SILVER\xBB",
+      "alt": "\u0424\u0438\u043D\u0438\u0448\u043D\u044B\u0439 h-\u043E\u0431\u0440\u0430\u0437\u043D\u044B\u0439 \u0448\u043F\u0430\u0442\u0435\u043B\u044C \xABDLT Finish SILVER\xBB"
+    }
+  ];
+  var tileCutterElements = [
+    {
+      "href": "images/tile-cutter/tile-cutter-640w.webp",
+      "type": "image",
+      "title": "\u041F\u043B\u0438\u0442\u043A\u043E\u0440\u0435\u0437 DLT ProLine 800",
+      "alt": "\u041F\u043B\u0438\u0442\u043A\u043E\u0440\u0435\u0437 DLT ProLine 800"
+    },
+    {
+      "href": "images/tile-cutter/tile-cutter-1-640w.webp",
+      "type": "image",
+      "title": "\u041F\u043B\u0438\u0442\u043A\u043E\u0440\u0435\u0437 DLT ProLine 800",
+      "alt": "\u041F\u043B\u0438\u0442\u043A\u043E\u0440\u0435\u0437 DLT ProLine 800"
+    },
+    {
+      "href": "images/tile-cutter/tile-cutter-2-640w.webp",
+      "type": "image",
+      "title": "\u041F\u043B\u0438\u0442\u043A\u043E\u0440\u0435\u0437 DLT ProLine 800",
+      "alt": "\u041F\u043B\u0438\u0442\u043A\u043E\u0440\u0435\u0437 DLT ProLine 800"
+    },
+    {
+      "href": "images/tile-cutter/tile-cutter-3-640w.webp",
+      "type": "image",
+      "title": "\u041F\u043B\u0438\u0442\u043A\u043E\u0440\u0435\u0437 DLT ProLine 800",
+      "alt": "\u041F\u043B\u0438\u0442\u043A\u043E\u0440\u0435\u0437 DLT ProLine 800"
+    },
+    {
+      "href": "images/tile-cutter/tile-cutter-4-640w.webp",
+      "type": "image",
+      "title": "\u041F\u043B\u0438\u0442\u043A\u043E\u0440\u0435\u0437 DLT ProLine 800",
+      "alt": "\u041F\u043B\u0438\u0442\u043A\u043E\u0440\u0435\u0437 DLT ProLine 800"
+    }
+  ];
+  var karcherElements = [
+    {
+      "href": "images/karcher/karcher-640w.webp",
+      "type": "image",
+      "title": "\u041F\u042B\u041B\u0415\u0421\u041E\u0421 KARCHER WD 3 P",
+      "alt": "\u041F\u042B\u041B\u0415\u0421\u041E\u0421 KARCHER WD 3 P"
+    },
+    {
+      "href": "images/karcher/karcher-1-640w.webp",
+      "type": "image",
+      "title": "\u041F\u042B\u041B\u0415\u0421\u041E\u0421 KARCHER WD 3 P",
+      "alt": "\u041F\u042B\u041B\u0415\u0421\u041E\u0421 KARCHER WD 3 P"
+    },
+    {
+      "href": "images/karcher/karcher-2-640w.webp",
+      "type": "image",
+      "title": "\u041F\u042B\u041B\u0415\u0421\u041E\u0421 KARCHER WD 3 P",
+      "alt": "\u041F\u042B\u041B\u0415\u0421\u041E\u0421 KARCHER WD 3 P"
     }
   ];
   var createGalleryFromBlock = (block, elements) => {
@@ -190,7 +366,12 @@
           { gallery: document.querySelector(".minsk-arena"), elements: minskArenaElements },
           { gallery: document.querySelector(".td-ekvator"), elements: tdEkvatorElements },
           { gallery: document.querySelector(".minsk-mir"), elements: minskMirElements },
-          { gallery: document.querySelector(".kobrin"), elements: kobrinElements }
+          { gallery: document.querySelector(".kobrin"), elements: kobrinElements },
+          { gallery: document.querySelector(".diamond-crowns"), elements: diamondCrownsElements },
+          { gallery: document.querySelector(".airless-paint"), elements: airlessPaintElements },
+          { gallery: document.querySelector(".spatulas"), elements: spatulasElements },
+          { gallery: document.querySelector(".tile-cutter"), elements: tileCutterElements },
+          { gallery: document.querySelector(".karcher"), elements: karcherElements }
         ];
         galleries.map((item) => createGalleryFromBlock(item.gallery, item.elements));
       };
@@ -201,7 +382,6 @@
           lazyLoad: "sequential"
         });
         splide.mount();
-        return;
         splide.on("move", (newIndex, prevIndex) => {
           if (newIndex === prevIndex)
             return;
