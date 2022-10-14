@@ -95,7 +95,6 @@ const diamondCrownsElements = [
     {
         'href': 'images/diamond-crowns/diamond-crowns-1-640w.webp',
         'type': 'image',
-        'title': 'Алмазные коронки DLT для плитки',
         'alt': 'Алмазные коронки DLT для плитки',
     },
 ];
@@ -104,54 +103,22 @@ const airlessPaintElements = [
         'href': 'images/airless-paint/airless-paint-640w.webp',
         'type': 'image',
         'title': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
+        'description': 'При покраске данным безвоздушным аппаратом нет скачков давления на окрасочном пистолете, в отличии от аппаратов с механической регулировкой давления, что существенным образом влияет на конечный результат работ.',
         'alt': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
     },
     {
         'href': 'images/airless-paint/airless-paint-1-640w.webp',
         'type': 'image',
-        'title': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
         'alt': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
     },
     {
         'href': 'images/airless-paint/airless-paint-2-640w.webp',
         'type': 'image',
-        'title': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
         'alt': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
     },
     {
         'href': 'images/airless-paint/airless-paint-3-640w.webp',
         'type': 'image',
-        'title': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
-        'alt': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
-    },
-    {
-        'href': 'images/airless-paint/airless-paint-4-640w.webp',
-        'type': 'image',
-        'title': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
-        'alt': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
-    },
-    {
-        'href': 'images/airless-paint/airless-paint-5-640w.webp',
-        'type': 'image',
-        'title': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
-        'alt': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
-    },
-    {
-        'href': 'images/airless-paint/airless-paint-6-640w.webp',
-        'type': 'image',
-        'title': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
-        'alt': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
-    },
-    {
-        'href': 'images/airless-paint/airless-paint-7-640w.webp',
-        'type': 'image',
-        'title': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
-        'alt': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
-    },
-    {
-        'href': 'images/airless-paint/airless-paint-8-640w.webp',
-        'type': 'image',
-        'title': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
         'alt': 'Поршневой безвоздушный окрасочный аппарат HVBAN',
     },
 ];
@@ -161,80 +128,70 @@ const spatulasElements = [
         'type': 'image',
         'title': 'Финишный h-образный шпатель «DLT Finish SILVER»',
         'alt': 'Финишный h-образный шпатель «DLT Finish SILVER»',
+        'description': 'Малярный профессиональный шпатель «DLT Finish SILVER» применяться для нанесения и разравнивания декоративной штукатурки, стеклотканевой сетки, стеклообоев, нанесения и разравнивания шпаклевочных масс, при нанесении ручным и машинным способом.',
     },
     {
         'href': 'images/spatulas/spatulas-1-640w.webp',
         'type': 'image',
-        'title': 'Финишный h-образный шпатель «DLT Finish SILVER»',
         'alt': 'Финишный h-образный шпатель «DLT Finish SILVER»',
     },
     {
         'href': 'images/spatulas/spatulas-2-640w.webp',
         'type': 'image',
-        'title': 'Финишный h-образный шпатель «DLT Finish SILVER»',
         'alt': 'Финишный h-образный шпатель «DLT Finish SILVER»',
     },
     {
         'href': 'images/spatulas/spatulas-3-640w.webp',
         'type': 'image',
-        'title': 'Финишный h-образный шпатель «DLT Finish SILVER»',
         'alt': 'Финишный h-образный шпатель «DLT Finish SILVER»',
     },
     {
         'href': 'images/spatulas/spatulas-4-640w.webp',
         'type': 'image',
-        'title': 'Финишный h-образный шпатель «DLT Finish SILVER»',
         'alt': 'Финишный h-образный шпатель «DLT Finish SILVER»',
     },
     {
         'href': 'images/spatulas/spatulas-5-640w.webp',
         'type': 'image',
-        'title': 'Финишный h-образный шпатель «DLT Finish SILVER»',
         'alt': 'Финишный h-образный шпатель «DLT Finish SILVER»',
     },
     {
         'href': 'images/spatulas/spatulas-6-640w.webp',
         'type': 'image',
-        'title': 'Финишный h-образный шпатель «DLT Finish SILVER»',
         'alt': 'Финишный h-образный шпатель «DLT Finish SILVER»',
     },
     {
         'href': 'images/spatulas/spatulas-7-640w.webp',
         'type': 'image',
-        'title': 'Финишный h-образный шпатель «DLT Finish SILVER»',
         'alt': 'Финишный h-образный шпатель «DLT Finish SILVER»',
     },
-
 ];
 const tileCutterElements = [
     {
         'href': 'images/tile-cutter/tile-cutter-640w.webp',
         'type': 'image',
         'title': 'Плиткорез DLT ProLine 800',
+        'description': 'Плиткорез DLT ProLine 800 способен разрезать даже трудные для резки материалы, с приложением минимального усилия и обеспечивая высокое качество реза. за счет разделяющего усилия до 1200 кг. Справляется с любой плиткой: режет твердые, толстые, рельефные материалы, плитку любой формы, кафель, керамогранит и т.д. Могут работать с разными видами плитки по толщине — от 2 до 16 мм',
         'alt': 'Плиткорез DLT ProLine 800',
     },
     {
         'href': 'images/tile-cutter/tile-cutter-1-640w.webp',
         'type': 'image',
-        'title': 'Плиткорез DLT ProLine 800',
         'alt': 'Плиткорез DLT ProLine 800',
     },
     {
         'href': 'images/tile-cutter/tile-cutter-2-640w.webp',
         'type': 'image',
-        'title': 'Плиткорез DLT ProLine 800',
         'alt': 'Плиткорез DLT ProLine 800',
     },
     {
         'href': 'images/tile-cutter/tile-cutter-3-640w.webp',
         'type': 'image',
-        'title': 'Плиткорез DLT ProLine 800',
         'alt': 'Плиткорез DLT ProLine 800',
     },
     {
         'href': 'images/tile-cutter/tile-cutter-4-640w.webp',
         'type': 'image',
-        'title': 'Плиткорез DLT ProLine 800',
         'alt': 'Плиткорез DLT ProLine 800',
     },
 ];
@@ -244,17 +201,16 @@ const karcherElements = [
         'type': 'image',
         'title': 'ПЫЛЕСОС KARCHER WD 3 P',
         'alt': 'ПЫЛЕСОС KARCHER WD 3 P',
+        'description': 'Многофункциональный пылесос KÄRCHER WD 3 P / MV 3 P оснащен стойким к повреждениям контейнером из пластика объемом 17 л и системой фильтрации, позволяющей собирать как влагу, так и сухой мусор без замены фильтра. ',
     },
     {
         'href': 'images/karcher/karcher-1-640w.webp',
         'type': 'image',
-        'title': 'ПЫЛЕСОС KARCHER WD 3 P',
         'alt': 'ПЫЛЕСОС KARCHER WD 3 P',
     },
     {
         'href': 'images/karcher/karcher-2-640w.webp',
         'type': 'image',
-        'title': 'ПЫЛЕСОС KARCHER WD 3 P',
         'alt': 'ПЫЛЕСОС KARCHER WD 3 P',
     },
 ];
