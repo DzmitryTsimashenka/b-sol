@@ -214,6 +214,32 @@ const karcherElements = [
         'alt': 'ПЫЛЕСОС KARCHER WD 3 P',
     },
 ];
+const grinderElements = [
+    {
+        'href': 'images/grinder/grinder-640w.webp',
+        'type': 'image',
+        'title': 'Шлифмашина для стен и потолков Wortex DG 2260',
+        'alt': 'Шлифмашина для стен и потолков Wortex DG 2260',
+    },
+    {
+        'href': 'images/grinder/grinder-1-640w.webp',
+        'type': 'image',
+        'alt': 'Шлифмашина для стен и потолков Wortex DG 2260',
+    },
+    {
+        'href': 'images/grinder/grinder-2-640w.webp',
+        'type': 'image',
+        'alt': 'Шлифмашина для стен и потолков Wortex DG 2260',
+    },
+];
+const ruleElements = [
+    {
+        'href': 'images/rule/rule-640w.webp',
+        'type': 'image',
+        'title': 'Правило-уровень 1500мм STARTUL MASTER',
+        'alt': 'Правило-уровень 1500мм STARTUL MASTER',
+    },
+];
 
 const createGalleryFromBlock = (block, elements) => {
     if (block !== null) {
@@ -345,6 +371,8 @@ const createGalleryFromBlock = (block, elements) => {
                 { gallery: document.querySelector(".spatulas"), elements: spatulasElements },
                 { gallery: document.querySelector(".tile-cutter"), elements: tileCutterElements },
                 { gallery: document.querySelector(".karcher"), elements: karcherElements },
+                { gallery: document.querySelector(".grinder"), elements: grinderElements },
+                { gallery: document.querySelector(".rule"), elements: ruleElements },
             ];
 
             galleries.map((item) => createGalleryFromBlock(item.gallery, item.elements))
