@@ -36,30 +36,6 @@ const tdEkvatorElements = [
         'alt': 'image text alternatives'
     },
 ];
-const minskMirElements = [
-    {
-        'href': 'images/dummy/img7.jpg',
-        'type': 'image',
-        'title': 'My Title',
-        'description': 'Example',
-        'alt': 'Alt Image',
-    },
-    {
-        'href': 'images/dummy/img8.jpg',
-        'type': 'image',
-        'alt': 'image text alternatives'
-    },
-    {
-        'href': 'images/dummy/img9.jpg',
-        'type': 'image',
-        'alt': 'image text alternatives'
-    },
-    {
-        'href': 'images/dummy/img10.jpg',
-        'type': 'image',
-        'alt': 'image text alternatives'
-    },
-];
 const kobrinElements = [
     {
         'href': 'images/dummy/img4.jpg',
@@ -241,6 +217,131 @@ const ruleElements = [
     },
 ];
 
+const minskMirElements = [
+    {
+        'href': 'images/minsk-mir/minsk-mir-1-640w.webp',
+        'type': 'image',
+        'title': 'ЖК Минск Мир',
+        'alt': 'ЖК Минск Мир',
+    },
+    {
+        'href': 'images/minsk-mir/minsk-mir-2-640w.webp',
+        'type': 'image',
+        'title': 'ЖК Минск Мир',
+        'alt': 'ЖК Минск Мир',
+    },
+    {
+        'href': 'images/minsk-mir/minsk-mir-3-640w.webp',
+        'type': 'image',
+        'title': 'ЖК Минск Мир',
+        'alt': 'ЖК Минск Мир',
+    },
+    {
+        'href': 'images/minsk-mir/minsk-mir-4-640w.webp',
+        'type': 'image',
+        'title': 'ЖК Минск Мир',
+        'alt': 'ЖК Минск Мир',
+    },
+    {
+        'href': 'images/minsk-mir/minsk-mir-5-640w.webp',
+        'type': 'image',
+        'title': 'ЖК Минск Мир',
+        'alt': 'ЖК Минск Мир',
+    },
+    {
+        'href': 'images/minsk-mir/minsk-mir-6-640w.webp',
+        'type': 'image',
+        'title': 'ЖК Минск Мир',
+        'alt': 'ЖК Минск Мир',
+    },
+    {
+        'href': 'images/minsk-mir/minsk-mir-7-640w.webp',
+        'type': 'image',
+        'title': 'ЖК Минск Мир',
+        'alt': 'ЖК Минск Мир',
+    },
+];
+const lasVegasElements = [
+    {
+        'href': 'images/las-vegas/las-vegas-1-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-2-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-3-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-4-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-5-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-6-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-7-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-8-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-9-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-10-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },    {
+        'href': 'images/las-vegas/las-vegas-11-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-12-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-13-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+
+];
+
 const createGalleryFromBlock = (block, elements) => {
     if (block !== null) {
         block.addEventListener("click", function (event) {
@@ -362,8 +463,8 @@ const createGalleryFromBlock = (block, elements) => {
         // Lightbox.
         const myLightbox = () => {
             const galleries = [
-                { gallery: document.querySelector(".minsk-arena"), elements: minskArenaElements },
-                { gallery: document.querySelector(".td-ekvator"), elements: tdEkvatorElements },
+                // { gallery: document.querySelector(".minsk-arena"), elements: matusevichaElements },
+                { gallery: document.querySelector(".las-vegas"), elements: lasVegasElements },
                 { gallery: document.querySelector(".minsk-mir"), elements: minskMirElements },
                 { gallery: document.querySelector(".kobrin"), elements: kobrinElements },
                 { gallery: document.querySelector(".diamond-crowns"), elements: diamondCrownsElements },

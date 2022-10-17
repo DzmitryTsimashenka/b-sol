@@ -1,67 +1,5 @@
 (() => {
   // resources/js/app.js
-  var minskArenaElements = [
-    {
-      "href": "images/dummy/img3.jpg",
-      "type": "image",
-      "title": "My Title",
-      "description": "Example",
-      "alt": "Alt Image"
-    },
-    {
-      "href": "images/dummy/img2.jpg",
-      "type": "image",
-      "alt": "image text alternatives"
-    },
-    {
-      "href": "images/dummy/img1.jpg",
-      "type": "image",
-      "alt": "image text alternatives"
-    }
-  ];
-  var tdEkvatorElements = [
-    {
-      "href": "images/dummy/img4.jpg",
-      "type": "image",
-      "title": "My Title",
-      "description": "Example",
-      "alt": "Alt Image"
-    },
-    {
-      "href": "images/dummy/img5.jpg",
-      "type": "image",
-      "alt": "image text alternatives"
-    },
-    {
-      "href": "images/dummy/img6.jpg",
-      "type": "image",
-      "alt": "image text alternatives"
-    }
-  ];
-  var minskMirElements = [
-    {
-      "href": "images/dummy/img7.jpg",
-      "type": "image",
-      "title": "My Title",
-      "description": "Example",
-      "alt": "Alt Image"
-    },
-    {
-      "href": "images/dummy/img8.jpg",
-      "type": "image",
-      "alt": "image text alternatives"
-    },
-    {
-      "href": "images/dummy/img9.jpg",
-      "type": "image",
-      "alt": "image text alternatives"
-    },
-    {
-      "href": "images/dummy/img10.jpg",
-      "type": "image",
-      "alt": "image text alternatives"
-    }
-  ];
   var kobrinElements = [
     {
       "href": "images/dummy/img4.jpg",
@@ -241,6 +179,130 @@
       "alt": "\u041F\u0440\u0430\u0432\u0438\u043B\u043E-\u0443\u0440\u043E\u0432\u0435\u043D\u044C 1500\u043C\u043C STARTUL MASTER"
     }
   ];
+  var minskMirElements = [
+    {
+      "href": "images/minsk-mir/minsk-mir-1-640w.webp",
+      "type": "image",
+      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
+    },
+    {
+      "href": "images/minsk-mir/minsk-mir-2-640w.webp",
+      "type": "image",
+      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
+    },
+    {
+      "href": "images/minsk-mir/minsk-mir-3-640w.webp",
+      "type": "image",
+      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
+    },
+    {
+      "href": "images/minsk-mir/minsk-mir-4-640w.webp",
+      "type": "image",
+      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
+    },
+    {
+      "href": "images/minsk-mir/minsk-mir-5-640w.webp",
+      "type": "image",
+      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
+    },
+    {
+      "href": "images/minsk-mir/minsk-mir-6-640w.webp",
+      "type": "image",
+      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
+    },
+    {
+      "href": "images/minsk-mir/minsk-mir-7-640w.webp",
+      "type": "image",
+      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
+    }
+  ];
+  var lasVegasElements = [
+    {
+      "href": "images/las-vegas/las-vegas-1-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-2-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-3-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-4-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-5-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-6-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-7-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-8-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-9-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-10-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-11-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-12-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-13-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    }
+  ];
   var createGalleryFromBlock = (block, elements) => {
     if (block !== null) {
       block.addEventListener("click", function(event) {
@@ -346,8 +408,7 @@
       };
       const myLightbox = () => {
         const galleries = [
-          { gallery: document.querySelector(".minsk-arena"), elements: minskArenaElements },
-          { gallery: document.querySelector(".td-ekvator"), elements: tdEkvatorElements },
+          { gallery: document.querySelector(".las-vegas"), elements: lasVegasElements },
           { gallery: document.querySelector(".minsk-mir"), elements: minskMirElements },
           { gallery: document.querySelector(".kobrin"), elements: kobrinElements },
           { gallery: document.querySelector(".diamond-crowns"), elements: diamondCrownsElements },
