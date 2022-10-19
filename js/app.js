@@ -1,27 +1,177 @@
 (() => {
   // resources/js/app.js
-  var kobrinElements = [
+  var minskMirElements = [
     {
-      "href": "images/dummy/img4.jpg",
+      "href": "images/minsk-mir/minsk-mir-1-640w.webp",
       "type": "image",
-      "title": "My Title",
-      "description": "Example",
-      "alt": "Alt Image"
+      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
     },
     {
-      "href": "images/dummy/img2.jpg",
+      "href": "images/minsk-mir/minsk-mir-2-640w.webp",
       "type": "image",
-      "alt": "image text alternatives"
+      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
     },
     {
-      "href": "images/dummy/img6.jpg",
+      "href": "images/minsk-mir/minsk-mir-3-640w.webp",
       "type": "image",
-      "alt": "image text alternatives"
+      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
     },
     {
-      "href": "images/dummy/img7.jpg",
+      "href": "images/minsk-mir/minsk-mir-4-640w.webp",
       "type": "image",
-      "alt": "image text alternatives"
+      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
+    },
+    {
+      "href": "images/minsk-mir/minsk-mir-5-640w.webp",
+      "type": "image",
+      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
+    },
+    {
+      "href": "images/minsk-mir/minsk-mir-6-640w.webp",
+      "type": "image",
+      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
+    },
+    {
+      "href": "images/minsk-mir/minsk-mir-7-640w.webp",
+      "type": "image",
+      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
+    }
+  ];
+  var lasVegasElements = [
+    {
+      "href": "images/las-vegas/las-vegas-1-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-2-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-3-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-4-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-5-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-6-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-7-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-8-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-9-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-10-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-11-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-12-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    },
+    {
+      "href": "images/las-vegas/las-vegas-13-640w.webp",
+      "type": "image",
+      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
+      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
+    }
+  ];
+  var matusevichaElements = [
+    {
+      "href": "images/matusevicha/matusevicha-1-640w.webp",
+      "type": "image",
+      "title": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430",
+      "alt": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430"
+    },
+    {
+      "href": "images/matusevicha/matusevicha-2-640w.webp",
+      "type": "image",
+      "title": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430",
+      "alt": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430"
+    },
+    {
+      "href": "images/matusevicha/matusevicha-3-640w.webp",
+      "type": "image",
+      "title": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430",
+      "alt": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430"
+    },
+    {
+      "href": "images/matusevicha/matusevicha-4-640w.webp",
+      "type": "image",
+      "title": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430",
+      "alt": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430"
+    },
+    {
+      "href": "images/matusevicha/matusevicha-5-640w.webp",
+      "type": "image",
+      "title": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430",
+      "alt": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430"
+    },
+    {
+      "href": "images/matusevicha/matusevicha-6-640w.webp",
+      "type": "image",
+      "title": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430",
+      "alt": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430"
+    },
+    {
+      "href": "images/matusevicha/matusevicha-7-640w.webp",
+      "type": "image",
+      "title": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430",
+      "alt": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430"
+    },
+    {
+      "href": "images/matusevicha/matusevicha-8-640w.webp",
+      "type": "image",
+      "title": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430",
+      "alt": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430"
     }
   ];
   var diamondCrownsElements = [
@@ -179,130 +329,6 @@
       "alt": "\u041F\u0440\u0430\u0432\u0438\u043B\u043E-\u0443\u0440\u043E\u0432\u0435\u043D\u044C 1500\u043C\u043C STARTUL MASTER"
     }
   ];
-  var minskMirElements = [
-    {
-      "href": "images/minsk-mir/minsk-mir-1-640w.webp",
-      "type": "image",
-      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
-      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
-    },
-    {
-      "href": "images/minsk-mir/minsk-mir-2-640w.webp",
-      "type": "image",
-      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
-      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
-    },
-    {
-      "href": "images/minsk-mir/minsk-mir-3-640w.webp",
-      "type": "image",
-      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
-      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
-    },
-    {
-      "href": "images/minsk-mir/minsk-mir-4-640w.webp",
-      "type": "image",
-      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
-      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
-    },
-    {
-      "href": "images/minsk-mir/minsk-mir-5-640w.webp",
-      "type": "image",
-      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
-      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
-    },
-    {
-      "href": "images/minsk-mir/minsk-mir-6-640w.webp",
-      "type": "image",
-      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
-      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
-    },
-    {
-      "href": "images/minsk-mir/minsk-mir-7-640w.webp",
-      "type": "image",
-      "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
-      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
-    }
-  ];
-  var lasVegasElements = [
-    {
-      "href": "images/las-vegas/las-vegas-1-640w.webp",
-      "type": "image",
-      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
-      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
-    },
-    {
-      "href": "images/las-vegas/las-vegas-2-640w.webp",
-      "type": "image",
-      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
-      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
-    },
-    {
-      "href": "images/las-vegas/las-vegas-3-640w.webp",
-      "type": "image",
-      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
-      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
-    },
-    {
-      "href": "images/las-vegas/las-vegas-4-640w.webp",
-      "type": "image",
-      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
-      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
-    },
-    {
-      "href": "images/las-vegas/las-vegas-5-640w.webp",
-      "type": "image",
-      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
-      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
-    },
-    {
-      "href": "images/las-vegas/las-vegas-6-640w.webp",
-      "type": "image",
-      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
-      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
-    },
-    {
-      "href": "images/las-vegas/las-vegas-7-640w.webp",
-      "type": "image",
-      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
-      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
-    },
-    {
-      "href": "images/las-vegas/las-vegas-8-640w.webp",
-      "type": "image",
-      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
-      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
-    },
-    {
-      "href": "images/las-vegas/las-vegas-9-640w.webp",
-      "type": "image",
-      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
-      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
-    },
-    {
-      "href": "images/las-vegas/las-vegas-10-640w.webp",
-      "type": "image",
-      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
-      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
-    },
-    {
-      "href": "images/las-vegas/las-vegas-11-640w.webp",
-      "type": "image",
-      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
-      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
-    },
-    {
-      "href": "images/las-vegas/las-vegas-12-640w.webp",
-      "type": "image",
-      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
-      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
-    },
-    {
-      "href": "images/las-vegas/las-vegas-13-640w.webp",
-      "type": "image",
-      "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
-      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
-    }
-  ];
   var createGalleryFromBlock = (block, elements) => {
     if (block !== null) {
       block.addEventListener("click", function(event) {
@@ -410,7 +436,7 @@
         const galleries = [
           { gallery: document.querySelector(".las-vegas"), elements: lasVegasElements },
           { gallery: document.querySelector(".minsk-mir"), elements: minskMirElements },
-          { gallery: document.querySelector(".kobrin"), elements: kobrinElements },
+          { gallery: document.querySelector(".matusevicha"), elements: matusevichaElements },
           { gallery: document.querySelector(".diamond-crowns"), elements: diamondCrownsElements },
           { gallery: document.querySelector(".airless-paint"), elements: airlessPaintElements },
           { gallery: document.querySelector(".spatulas"), elements: spatulasElements },
@@ -433,32 +459,24 @@
             return;
           const slideTitle = `slide-title-${newIndex}`;
           const slideDescription = `slide-description-${newIndex}`;
-          const slideButtons = `slide-buttons-${newIndex}`;
           const titleEl = document.getElementById(slideTitle);
           const descriptionEl = document.getElementById(slideDescription);
-          const buttonsEl = document.getElementById(slideButtons);
           titleEl.classList.add("hidden");
           descriptionEl.classList.add("hidden");
-          buttonsEl.classList.add("hidden");
         });
         splide.on("moved", (newIndex, prevIndex) => {
           if (newIndex === prevIndex)
             return;
           const slideTitle = `slide-title-${newIndex}`;
           const slideDescription = `slide-description-${newIndex}`;
-          const slideButtons = `slide-buttons-${newIndex}`;
           const titleEl = document.getElementById(slideTitle);
           const descriptionEl = document.getElementById(slideDescription);
-          const buttonsEl = document.getElementById(slideButtons);
           titleEl.classList.remove("hidden");
           descriptionEl.classList.remove("hidden");
-          buttonsEl.classList.remove("hidden");
           titleEl.classList.add("animate__bounceInLeft");
           descriptionEl.classList.add("animate__bounceInRight");
-          buttonsEl.classList.add("animate__bounceInUp");
           titleEl.addEventListener("animationend", () => titleEl.classList.remove("animate__bounceInLeft"), { once: true });
           descriptionEl.addEventListener("animationend", () => descriptionEl.classList.remove("animate__bounceInRight"), { once: true });
-          buttonsEl.addEventListener("animationend", () => buttonsEl.classList.remove("animate__bounceInUp"), { once: true });
         });
       };
       myBackToTop();

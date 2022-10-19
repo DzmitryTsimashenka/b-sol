@@ -1,63 +1,175 @@
-const minskArenaElements = [
+const minskMirElements = [
     {
-        'href': 'images/dummy/img3.jpg',
+        'href': 'images/minsk-mir/minsk-mir-1-640w.webp',
         'type': 'image',
-        'title': 'My Title',
-        'description': 'Example',
-        'alt': 'Alt Image',
+        'title': 'ЖК Минск Мир',
+        'alt': 'ЖК Минск Мир',
     },
     {
-        'href': 'images/dummy/img2.jpg',
+        'href': 'images/minsk-mir/minsk-mir-2-640w.webp',
         'type': 'image',
-        'alt': 'image text alternatives'
+        'title': 'ЖК Минск Мир',
+        'alt': 'ЖК Минск Мир',
     },
     {
-        'href': 'images/dummy/img1.jpg',
+        'href': 'images/minsk-mir/minsk-mir-3-640w.webp',
         'type': 'image',
-        'alt': 'image text alternatives'
+        'title': 'ЖК Минск Мир',
+        'alt': 'ЖК Минск Мир',
+    },
+    {
+        'href': 'images/minsk-mir/minsk-mir-4-640w.webp',
+        'type': 'image',
+        'title': 'ЖК Минск Мир',
+        'alt': 'ЖК Минск Мир',
+    },
+    {
+        'href': 'images/minsk-mir/minsk-mir-5-640w.webp',
+        'type': 'image',
+        'title': 'ЖК Минск Мир',
+        'alt': 'ЖК Минск Мир',
+    },
+    {
+        'href': 'images/minsk-mir/minsk-mir-6-640w.webp',
+        'type': 'image',
+        'title': 'ЖК Минск Мир',
+        'alt': 'ЖК Минск Мир',
+    },
+    {
+        'href': 'images/minsk-mir/minsk-mir-7-640w.webp',
+        'type': 'image',
+        'title': 'ЖК Минск Мир',
+        'alt': 'ЖК Минск Мир',
     },
 ];
-const tdEkvatorElements = [
+const lasVegasElements = [
     {
-        'href': 'images/dummy/img4.jpg',
+        'href': 'images/las-vegas/las-vegas-1-640w.webp',
         'type': 'image',
-        'title': 'My Title',
-        'description': 'Example',
-        'alt': 'Alt Image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
     },
     {
-        'href': 'images/dummy/img5.jpg',
+        'href': 'images/las-vegas/las-vegas-2-640w.webp',
         'type': 'image',
-        'alt': 'image text alternatives'
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
     },
     {
-        'href': 'images/dummy/img6.jpg',
+        'href': 'images/las-vegas/las-vegas-3-640w.webp',
         'type': 'image',
-        'alt': 'image text alternatives'
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
     },
+    {
+        'href': 'images/las-vegas/las-vegas-4-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-5-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-6-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-7-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-8-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-9-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-10-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },    {
+        'href': 'images/las-vegas/las-vegas-11-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-12-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+    {
+        'href': 'images/las-vegas/las-vegas-13-640w.webp',
+        'type': 'image',
+        'title': 'Лас Вегас',
+        'alt': 'Лас Вегас',
+    },
+
 ];
-const kobrinElements = [
+const matusevichaElements = [
     {
-        'href': 'images/dummy/img4.jpg',
+        'href': 'images/matusevicha/matusevicha-1-640w.webp',
         'type': 'image',
-        'title': 'My Title',
-        'description': 'Example',
-        'alt': 'Alt Image',
+        'title': 'Матусевича',
+        'alt': 'Матусевича',
     },
     {
-        'href': 'images/dummy/img2.jpg',
+        'href': 'images/matusevicha/matusevicha-2-640w.webp',
         'type': 'image',
-        'alt': 'image text alternatives'
+        'title': 'Матусевича',
+        'alt': 'Матусевича',
     },
     {
-        'href': 'images/dummy/img6.jpg',
+        'href': 'images/matusevicha/matusevicha-3-640w.webp',
         'type': 'image',
-        'alt': 'image text alternatives'
+        'title': 'Матусевича',
+        'alt': 'Матусевича',
     },
     {
-        'href': 'images/dummy/img7.jpg',
+        'href': 'images/matusevicha/matusevicha-4-640w.webp',
         'type': 'image',
-        'alt': 'image text alternatives'
+        'title': 'Матусевича',
+        'alt': 'Матусевича',
+    },
+    {
+        'href': 'images/matusevicha/matusevicha-5-640w.webp',
+        'type': 'image',
+        'title': 'Матусевича',
+        'alt': 'Матусевича',
+    },
+    {
+        'href': 'images/matusevicha/matusevicha-6-640w.webp',
+        'type': 'image',
+        'title': 'Матусевича',
+        'alt': 'Матусевича',
+    },
+    {
+        'href': 'images/matusevicha/matusevicha-7-640w.webp',
+        'type': 'image',
+        'title': 'Матусевича',
+        'alt': 'Матусевича',
+    },
+    {
+        'href': 'images/matusevicha/matusevicha-8-640w.webp',
+        'type': 'image',
+        'title': 'Матусевича',
+        'alt': 'Матусевича',
     },
 ];
 
@@ -217,131 +329,6 @@ const ruleElements = [
     },
 ];
 
-const minskMirElements = [
-    {
-        'href': 'images/minsk-mir/minsk-mir-1-640w.webp',
-        'type': 'image',
-        'title': 'ЖК Минск Мир',
-        'alt': 'ЖК Минск Мир',
-    },
-    {
-        'href': 'images/minsk-mir/minsk-mir-2-640w.webp',
-        'type': 'image',
-        'title': 'ЖК Минск Мир',
-        'alt': 'ЖК Минск Мир',
-    },
-    {
-        'href': 'images/minsk-mir/minsk-mir-3-640w.webp',
-        'type': 'image',
-        'title': 'ЖК Минск Мир',
-        'alt': 'ЖК Минск Мир',
-    },
-    {
-        'href': 'images/minsk-mir/minsk-mir-4-640w.webp',
-        'type': 'image',
-        'title': 'ЖК Минск Мир',
-        'alt': 'ЖК Минск Мир',
-    },
-    {
-        'href': 'images/minsk-mir/minsk-mir-5-640w.webp',
-        'type': 'image',
-        'title': 'ЖК Минск Мир',
-        'alt': 'ЖК Минск Мир',
-    },
-    {
-        'href': 'images/minsk-mir/minsk-mir-6-640w.webp',
-        'type': 'image',
-        'title': 'ЖК Минск Мир',
-        'alt': 'ЖК Минск Мир',
-    },
-    {
-        'href': 'images/minsk-mir/minsk-mir-7-640w.webp',
-        'type': 'image',
-        'title': 'ЖК Минск Мир',
-        'alt': 'ЖК Минск Мир',
-    },
-];
-const lasVegasElements = [
-    {
-        'href': 'images/las-vegas/las-vegas-1-640w.webp',
-        'type': 'image',
-        'title': 'Лас Вегас',
-        'alt': 'Лас Вегас',
-    },
-    {
-        'href': 'images/las-vegas/las-vegas-2-640w.webp',
-        'type': 'image',
-        'title': 'Лас Вегас',
-        'alt': 'Лас Вегас',
-    },
-    {
-        'href': 'images/las-vegas/las-vegas-3-640w.webp',
-        'type': 'image',
-        'title': 'Лас Вегас',
-        'alt': 'Лас Вегас',
-    },
-    {
-        'href': 'images/las-vegas/las-vegas-4-640w.webp',
-        'type': 'image',
-        'title': 'Лас Вегас',
-        'alt': 'Лас Вегас',
-    },
-    {
-        'href': 'images/las-vegas/las-vegas-5-640w.webp',
-        'type': 'image',
-        'title': 'Лас Вегас',
-        'alt': 'Лас Вегас',
-    },
-    {
-        'href': 'images/las-vegas/las-vegas-6-640w.webp',
-        'type': 'image',
-        'title': 'Лас Вегас',
-        'alt': 'Лас Вегас',
-    },
-    {
-        'href': 'images/las-vegas/las-vegas-7-640w.webp',
-        'type': 'image',
-        'title': 'Лас Вегас',
-        'alt': 'Лас Вегас',
-    },
-    {
-        'href': 'images/las-vegas/las-vegas-8-640w.webp',
-        'type': 'image',
-        'title': 'Лас Вегас',
-        'alt': 'Лас Вегас',
-    },
-    {
-        'href': 'images/las-vegas/las-vegas-9-640w.webp',
-        'type': 'image',
-        'title': 'Лас Вегас',
-        'alt': 'Лас Вегас',
-    },
-    {
-        'href': 'images/las-vegas/las-vegas-10-640w.webp',
-        'type': 'image',
-        'title': 'Лас Вегас',
-        'alt': 'Лас Вегас',
-    },    {
-        'href': 'images/las-vegas/las-vegas-11-640w.webp',
-        'type': 'image',
-        'title': 'Лас Вегас',
-        'alt': 'Лас Вегас',
-    },
-    {
-        'href': 'images/las-vegas/las-vegas-12-640w.webp',
-        'type': 'image',
-        'title': 'Лас Вегас',
-        'alt': 'Лас Вегас',
-    },
-    {
-        'href': 'images/las-vegas/las-vegas-13-640w.webp',
-        'type': 'image',
-        'title': 'Лас Вегас',
-        'alt': 'Лас Вегас',
-    },
-
-];
-
 const createGalleryFromBlock = (block, elements) => {
     if (block !== null) {
         block.addEventListener("click", function (event) {
@@ -463,10 +450,9 @@ const createGalleryFromBlock = (block, elements) => {
         // Lightbox.
         const myLightbox = () => {
             const galleries = [
-                // { gallery: document.querySelector(".minsk-arena"), elements: matusevichaElements },
                 { gallery: document.querySelector(".las-vegas"), elements: lasVegasElements },
                 { gallery: document.querySelector(".minsk-mir"), elements: minskMirElements },
-                { gallery: document.querySelector(".kobrin"), elements: kobrinElements },
+                { gallery: document.querySelector(".matusevicha"), elements: matusevichaElements },
                 { gallery: document.querySelector(".diamond-crowns"), elements: diamondCrownsElements },
                 { gallery: document.querySelector(".airless-paint"), elements: airlessPaintElements },
                 { gallery: document.querySelector(".spatulas"), elements: spatulasElements },
@@ -493,15 +479,15 @@ const createGalleryFromBlock = (block, elements) => {
 
                 const slideTitle = `slide-title-${newIndex}`;
                 const slideDescription = `slide-description-${newIndex}`;
-                const slideButtons = `slide-buttons-${newIndex}`;
+                // const slideButtons = `slide-buttons-${newIndex}`;
 
                 const titleEl = document.getElementById(slideTitle);
                 const descriptionEl = document.getElementById(slideDescription);
-                const buttonsEl = document.getElementById(slideButtons);
+                // const buttonsEl = document.getElementById(slideButtons);
 
                 titleEl.classList.add("hidden");
                 descriptionEl.classList.add("hidden");
-                buttonsEl.classList.add("hidden");
+                // buttonsEl.classList.add("hidden");
             });
 
             splide.on("moved", (newIndex, prevIndex) => {
@@ -509,23 +495,23 @@ const createGalleryFromBlock = (block, elements) => {
 
                 const slideTitle = `slide-title-${newIndex}`;
                 const slideDescription = `slide-description-${newIndex}`;
-                const slideButtons = `slide-buttons-${newIndex}`;
+                // const slideButtons = `slide-buttons-${newIndex}`;
 
                 const titleEl = document.getElementById(slideTitle);
                 const descriptionEl = document.getElementById(slideDescription);
-                const buttonsEl = document.getElementById(slideButtons);
+                // const buttonsEl = document.getElementById(slideButtons);
 
                 titleEl.classList.remove("hidden");
                 descriptionEl.classList.remove("hidden");
-                buttonsEl.classList.remove("hidden");
+                // buttonsEl.classList.remove("hidden");
 
                 titleEl.classList.add("animate__bounceInLeft");
                 descriptionEl.classList.add("animate__bounceInRight");
-                buttonsEl.classList.add("animate__bounceInUp");
+                // buttonsEl.classList.add("animate__bounceInUp");
 
                 titleEl.addEventListener("animationend", () => titleEl.classList.remove("animate__bounceInLeft"), {once: true});
                 descriptionEl.addEventListener("animationend", () => descriptionEl.classList.remove("animate__bounceInRight"), {once: true});
-                buttonsEl.addEventListener("animationend", () => buttonsEl.classList.remove("animate__bounceInUp"), {once: true});
+                // buttonsEl.addEventListener("animationend", () => buttonsEl.classList.remove("animate__bounceInUp"), {once: true});
             });
         }
 
