@@ -2,159 +2,111 @@
   // resources/js/app.js
   var minskMirElements = [
     {
-      "href": "images/minsk-mir/minsk-mir-1-640w.webp",
+      "href": "images/minsk-mir/minsk-mir-1-650w.webp",
       "type": "image",
       "title": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440",
       "description": "\u0413\u043E\u0442\u043E\u0432\u0430\u044F \u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0430 \u0441 \u0440\u0435\u043C\u043E\u043D\u0442\u043E\u043C",
       "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
     },
     {
-      "href": "images/minsk-mir/minsk-mir-2-640w.webp",
+      "href": "images/minsk-mir/minsk-mir-2-650w.webp",
       "type": "image",
-      "description": "\u041F\u043B\u043E\u0449\u0430\u0434\u044C 29 \u043C2. \u0421\u0440\u043E\u043A \u0440\u0435\u043C\u043E\u043D\u0442\u0430 - 1 \u043C\u0435\u0441\u044F\u0446",
+      "title": "\u041F\u043B\u043E\u0449\u0430\u0434\u044C 29 \u043C2. \u0421\u0440\u043E\u043A \u0440\u0435\u043C\u043E\u043D\u0442\u0430 - 1 \u043C\u0435\u0441\u044F\u0446",
       "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
     },
     {
-      "href": "images/minsk-mir/minsk-mir-3-640w.webp",
+      "href": "images/minsk-mir/minsk-mir-3-650w.webp",
       "type": "image",
-      "description": "\u0412 \u043F\u0440\u043E\u0446\u0435\u0441\u0441\u0435 \u0440\u0435\u043C\u043E\u043D\u0442\u0430 \u0432\u043E\u0437\u0432\u0435\u043B\u0438 \u043F\u0435\u0440\u0435\u0433\u043E\u0440\u043E\u0434\u043A\u0443 \u0438\u0437 \u043A\u0438\u0440\u043F\u0438\u0447\u0430",
+      "title": "\u0412 \u043F\u0440\u043E\u0446\u0435\u0441\u0441\u0435 \u0440\u0435\u043C\u043E\u043D\u0442\u0430 \u0432\u043E\u0437\u0432\u0435\u043B\u0438 \u043F\u0435\u0440\u0435\u0433\u043E\u0440\u043E\u0434\u043A\u0443 \u0438\u0437 \u043A\u0438\u0440\u043F\u0438\u0447\u0430",
       "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
     },
     {
-      "href": "images/minsk-mir/minsk-mir-4-640w.webp",
+      "href": "images/minsk-mir/minsk-mir-4-650w.webp",
       "type": "image",
-      "description": "\u0432\u044B\u043F\u043E\u043B\u043D\u0438\u043B\u0438 \u0441\u0430\u043D\u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0435 \u0440\u0430\u0431\u043E\u0442\u044B, \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0443, \u0448\u043F\u0430\u0442\u043B\u0435\u0432\u043A\u0443 \u0441\u0442\u0435\u043D,",
+      "title": "\u0432\u044B\u043F\u043E\u043B\u043D\u0438\u043B\u0438 \u0441\u0430\u043D\u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0435 \u0440\u0430\u0431\u043E\u0442\u044B, \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0443, \u0448\u043F\u0430\u0442\u043B\u0435\u0432\u043A\u0443 \u0441\u0442\u0435\u043D,",
       "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
     },
     {
-      "href": "images/minsk-mir/minsk-mir-5-640w.webp",
+      "href": "images/minsk-mir/minsk-mir-5-650w.webp",
       "type": "image",
-      "description": "\u0432\u043E\u0437\u0432\u0435\u043B\u0438 \u043F\u0435\u0440\u0435\u0433\u043E\u0440\u043E\u0434\u043A\u0443 \u0438\u0437 \u043A\u0438\u0440\u043F\u0438\u0447\u0430",
       "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
     },
     {
-      "href": "images/minsk-mir/minsk-mir-6-640w.webp",
+      "href": "images/minsk-mir/minsk-mir-6-650w.webp",
       "type": "image",
-      "description": "\u0432\u0435\u043D\u0435\u0446\u0438\u0430\u043D\u0441\u043A\u0443\u044E \u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043A\u0443, \u043A\u043B\u0430\u0434\u043A\u0443 \u043F\u043B\u0438\u0442\u043A\u0438, \u043B\u0430\u043C\u0438\u043D\u0430\u0442\u0430, \u043A\u043E\u0440\u043E\u0431\u0430 \u0438\u0437 \u0433\u043A\u043B \u0438 \u043F\u043E\u0442\u043E\u043B\u043A\u0438 \u043F\u043E\u0434 \u043E\u043A\u0440\u0430\u0441\u043A\u0443",
-      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
-    },
-    {
-      "href": "images/minsk-mir/minsk-mir-7-640w.webp",
-      "type": "image",
-      "description": "\u043B\u0430\u043C\u0438\u043D\u0430\u0442\u0430, \u043A\u043E\u0440\u043E\u0431\u0430 \u0438\u0437 \u0433\u043A\u043B \u0438 \u043F\u043E\u0442\u043E\u043B\u043A\u0438 \u043F\u043E\u0434 \u043E\u043A\u0440\u0430\u0441\u043A\u0443",
       "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
     }
   ];
   var lasVegasElements = [
     {
-      "href": "images/las-vegas/las-vegas-1-640w.webp",
+      "href": "images/las-vegas/las-vegas-1-650w.webp",
       "type": "image",
       "title": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441",
       "description": "\u041F\u043B\u043E\u0449\u0430\u0434\u044C \u043A\u0432\u0430\u0440\u0442\u0438\u0440\u044B- 30 \u043C2.",
       "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
     },
     {
-      "href": "images/las-vegas/las-vegas-2-640w.webp",
+      "href": "images/las-vegas/las-vegas-2-650w.webp",
       "type": "image",
       "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
     },
     {
-      "href": "images/las-vegas/las-vegas-3-640w.webp",
+      "href": "images/las-vegas/las-vegas-3-650w.webp",
       "type": "image",
       "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
     },
     {
-      "href": "images/las-vegas/las-vegas-4-640w.webp",
+      "href": "images/las-vegas/las-vegas-4-650w.webp",
       "type": "image",
       "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
     },
     {
-      "href": "images/las-vegas/las-vegas-5-640w.webp",
+      "href": "images/las-vegas/las-vegas-5-650w.webp",
       "type": "image",
       "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
     },
     {
-      "href": "images/las-vegas/las-vegas-6-640w.webp",
+      "href": "images/las-vegas/las-vegas-6-650w.webp",
       "type": "image",
       "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
     },
     {
-      "href": "images/las-vegas/las-vegas-7-640w.webp",
+      "href": "images/las-vegas/las-vegas-7-650w.webp",
       "type": "image",
       "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
     },
     {
-      "href": "images/las-vegas/las-vegas-8-640w.webp",
+      "href": "images/las-vegas/las-vegas-8-650w.webp",
       "type": "image",
       "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
     },
     {
-      "href": "images/las-vegas/las-vegas-9-640w.webp",
-      "type": "image",
-      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
-    },
-    {
-      "href": "images/las-vegas/las-vegas-10-640w.webp",
-      "type": "image",
-      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
-    },
-    {
-      "href": "images/las-vegas/las-vegas-11-640w.webp",
-      "type": "image",
-      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
-    },
-    {
-      "href": "images/las-vegas/las-vegas-12-640w.webp",
-      "type": "image",
-      "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
-    },
-    {
-      "href": "images/las-vegas/las-vegas-13-640w.webp",
+      "href": "images/las-vegas/las-vegas-9-650w.webp",
       "type": "image",
       "alt": "\u041B\u0430\u0441 \u0412\u0435\u0433\u0430\u0441"
     }
   ];
   var matusevichaElements = [
     {
-      "href": "images/matusevicha/matusevicha-1-640w.webp",
+      "href": "images/matusevicha/matusevicha-1-650w.webp",
       "type": "image",
       "title": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430",
       "description": "\u0420\u0435\u043C\u043E\u043D\u0442 \u043A\u0430\u0430\u0440\u0442\u0438\u0440\u044B \u043F\u043E \u0443\u043B. \u041C\u0410\u0422\u0423\u0421\u0415\u0412\u0418\u0427\u0410, \u044D\u0442\u043E \u0432\u0442\u043E\u0440\u0438\u0447\u043A\u0430, \u043D\u0435 \u043D\u043E\u0432\u043E\u0441\u0442\u0440\u043E\u0439\u043A\u0430",
       "alt": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430"
     },
     {
-      "href": "images/matusevicha/matusevicha-2-640w.webp",
+      "href": "images/matusevicha/matusevicha-2-650w.webp",
       "type": "image",
       "description": "\u0411\u042B\u041B\u0418 \u0412\u042B\u041F\u041E\u041B\u041D\u0415\u041D\u042B:\n\u{1F449}\u0434\u0435\u043C\u043E\u043D\u0442\u0430\u0436\u043D\u044B\u0435; \n\u{1F449}\u0441\u0430\u043D\u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u0435;\n\u{1F449}\u0448\u0442\u0443\u043A\u0430\u0442\u0443\u0440\u043D\u044B\u0435, \n\u{1F449}\u044D\u043B\u0435\u043A\u0442\u0440\u043E\u043C\u043E\u043D\u0442\u0430\u0436\u043D\u044B\u0435, \n\u{1F449}\u043C\u0430\u043B\u044F\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B.",
       "alt": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430"
     },
     {
-      "href": "images/matusevicha/matusevicha-3-640w.webp",
+      "href": "images/matusevicha/matusevicha-3-650w.webp",
       "type": "image",
       "alt": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430"
     },
     {
-      "href": "images/matusevicha/matusevicha-4-640w.webp",
-      "type": "image",
-      "alt": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430"
-    },
-    {
-      "href": "images/matusevicha/matusevicha-5-640w.webp",
-      "type": "image",
-      "alt": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430"
-    },
-    {
-      "href": "images/matusevicha/matusevicha-6-640w.webp",
-      "type": "image",
-      "alt": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430"
-    },
-    {
-      "href": "images/matusevicha/matusevicha-7-640w.webp",
-      "type": "image",
-      "alt": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430"
-    },
-    {
-      "href": "images/matusevicha/matusevicha-8-640w.webp",
+      "href": "images/matusevicha/matusevicha-4-650w.webp",
       "type": "image",
       "alt": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430"
     }

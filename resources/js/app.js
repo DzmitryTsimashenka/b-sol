@@ -1,128 +1,99 @@
 const minskMirElements = [
     {
-        'href': 'images/minsk-mir/minsk-mir-1-640w.webp',
+        'href': 'images/minsk-mir/minsk-mir-1-650w.webp',
         'type': 'image',
         'title': 'ЖК Минск Мир',
         'description': 'Готовая квартира с ремонтом',
-
         'alt': 'ЖК Минск Мир',
     },
     {
-        'href': 'images/minsk-mir/minsk-mir-2-640w.webp',
+        'href': 'images/minsk-mir/minsk-mir-2-650w.webp',
         'type': 'image',
-        'description': 'Площадь 29 м2. Срок ремонта - 1 месяц',
+        'title': 'Площадь 29 м2. Срок ремонта - 1 месяц',
         'alt': 'ЖК Минск Мир',
     },
     {
-        'href': 'images/minsk-mir/minsk-mir-3-640w.webp',
+        'href': 'images/minsk-mir/minsk-mir-3-650w.webp',
         'type': 'image',
-        'description': 'В процессе ремонта возвели перегородку из кирпича',
+        'title': 'В процессе ремонта возвели перегородку из кирпича',
         'alt': 'ЖК Минск Мир',
     },
     {
-        'href': 'images/minsk-mir/minsk-mir-4-640w.webp',
+        'href': 'images/minsk-mir/minsk-mir-4-650w.webp',
         'type': 'image',
-        'description': 'выполнили сантехнические работы, штукатурку, шпатлевку стен,',
+        'title': 'выполнили сантехнические работы, штукатурку, шпатлевку стен,',
         'alt': 'ЖК Минск Мир',
     },
     {
-        'href': 'images/minsk-mir/minsk-mir-5-640w.webp',
+        'href': 'images/minsk-mir/minsk-mir-5-650w.webp',
         'type': 'image',
-        'description': 'возвели перегородку из кирпича',
         'alt': 'ЖК Минск Мир',
     },
     {
-        'href': 'images/minsk-mir/minsk-mir-6-640w.webp',
+        'href': 'images/minsk-mir/minsk-mir-6-650w.webp',
         'type': 'image',
-        'description': 'венецианскую штукатурку, кладку плитки, ламината, короба из гкл и потолки под окраску',
-        'alt': 'ЖК Минск Мир',
-    },
-    {
-        'href': 'images/minsk-mir/minsk-mir-7-640w.webp',
-        'type': 'image',
-        'description': 'ламината, короба из гкл и потолки под окраску',
         'alt': 'ЖК Минск Мир',
     },
 ];
 const lasVegasElements = [
     {
-        'href': 'images/las-vegas/las-vegas-1-640w.webp',
+        'href': 'images/las-vegas/las-vegas-1-650w.webp',
         'type': 'image',
         'title': 'Лас Вегас',
         'description': 'Площадь квартиры- 30 м2.',
         'alt': 'Лас Вегас',
     },
     {
-        'href': 'images/las-vegas/las-vegas-2-640w.webp',
+        'href': 'images/las-vegas/las-vegas-2-650w.webp',
         'type': 'image',
         'alt': 'Лас Вегас',
     },
     {
-        'href': 'images/las-vegas/las-vegas-3-640w.webp',
+        'href': 'images/las-vegas/las-vegas-3-650w.webp',
         'type': 'image',
         'alt': 'Лас Вегас',
     },
     {
-        'href': 'images/las-vegas/las-vegas-4-640w.webp',
+        'href': 'images/las-vegas/las-vegas-4-650w.webp',
         'type': 'image',
         'alt': 'Лас Вегас',
     },
     {
-        'href': 'images/las-vegas/las-vegas-5-640w.webp',
+        'href': 'images/las-vegas/las-vegas-5-650w.webp',
         'type': 'image',
         'alt': 'Лас Вегас',
     },
     {
-        'href': 'images/las-vegas/las-vegas-6-640w.webp',
+        'href': 'images/las-vegas/las-vegas-6-650w.webp',
         'type': 'image',
         'alt': 'Лас Вегас',
     },
     {
-        'href': 'images/las-vegas/las-vegas-7-640w.webp',
+        'href': 'images/las-vegas/las-vegas-7-650w.webp',
         'type': 'image',
         'alt': 'Лас Вегас',
     },
     {
-        'href': 'images/las-vegas/las-vegas-8-640w.webp',
+        'href': 'images/las-vegas/las-vegas-8-650w.webp',
         'type': 'image',
         'alt': 'Лас Вегас',
     },
     {
-        'href': 'images/las-vegas/las-vegas-9-640w.webp',
+        'href': 'images/las-vegas/las-vegas-9-650w.webp',
         'type': 'image',
         'alt': 'Лас Вегас',
     },
-    {
-        'href': 'images/las-vegas/las-vegas-10-640w.webp',
-        'type': 'image',
-        'alt': 'Лас Вегас',
-    },    {
-        'href': 'images/las-vegas/las-vegas-11-640w.webp',
-        'type': 'image',
-        'alt': 'Лас Вегас',
-    },
-    {
-        'href': 'images/las-vegas/las-vegas-12-640w.webp',
-        'type': 'image',
-        'alt': 'Лас Вегас',
-    },
-    {
-        'href': 'images/las-vegas/las-vegas-13-640w.webp',
-        'type': 'image',
-        'alt': 'Лас Вегас',
-    },
-
 ];
 const matusevichaElements = [
     {
-        'href': 'images/matusevicha/matusevicha-1-640w.webp',
+        'href': 'images/matusevicha/matusevicha-1-650w.webp',
         'type': 'image',
         'title': 'Матусевича',
         'description': 'Ремонт каартиры по ул. МАТУСЕВИЧА, это вторичка, не новостройка',
         'alt': 'Матусевича',
     },
     {
-        'href': 'images/matusevicha/matusevicha-2-640w.webp',
+        'href': 'images/matusevicha/matusevicha-2-650w.webp',
         'type': 'image',
         'description': 'БЫЛИ ВЫПОЛНЕНЫ:\n' +
             '👉демонтажные; \n' +
@@ -133,32 +104,12 @@ const matusevichaElements = [
         'alt': 'Матусевича',
     },
     {
-        'href': 'images/matusevicha/matusevicha-3-640w.webp',
+        'href': 'images/matusevicha/matusevicha-3-650w.webp',
         'type': 'image',
         'alt': 'Матусевича',
     },
     {
-        'href': 'images/matusevicha/matusevicha-4-640w.webp',
-        'type': 'image',
-        'alt': 'Матусевича',
-    },
-    {
-        'href': 'images/matusevicha/matusevicha-5-640w.webp',
-        'type': 'image',
-        'alt': 'Матусевича',
-    },
-    {
-        'href': 'images/matusevicha/matusevicha-6-640w.webp',
-        'type': 'image',
-        'alt': 'Матусевича',
-    },
-    {
-        'href': 'images/matusevicha/matusevicha-7-640w.webp',
-        'type': 'image',
-        'alt': 'Матусевича',
-    },
-    {
-        'href': 'images/matusevicha/matusevicha-8-640w.webp',
+        'href': 'images/matusevicha/matusevicha-4-650w.webp',
         'type': 'image',
         'alt': 'Матусевича',
     },
