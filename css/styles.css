@@ -927,10 +927,6 @@ video {
   padding-top: 2rem;
 }
 
-.pb-6 {
-  padding-bottom: 1.5rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1051,6 +1047,10 @@ video {
 
 .opacity-50 {
   opacity: 0.5;
+}
+
+.opacity-80 {
+  opacity: 0.8;
 }
 
 .opacity-90 {
@@ -1280,9 +1280,5 @@ html {
 
   .xl\:pt-16 {
     padding-top: 4rem;
-  }
-
-  .xl\:pb-12 {
-    padding-bottom: 3rem;
   }
 }

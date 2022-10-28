@@ -262,11 +262,26 @@ const grinderElements = [
         'alt': 'Шлифмашина для стен и потолков Wortex DG 2260',
     },
 ];
-const ruleElements = [
+const lossewLampElements = [
     {
-        'href': 'images/rule/rule-640w.webp',
+        'href': 'images/lossew-lamp/lossew-lamp-1-650w.webp',
         'type': 'image',
-        'title': 'Правило-уровень 1500мм STARTUL MASTER',
+        'title': 'Проявочная лампа маляра LOSSEW LAMP P2 TWL',
+        'alt': 'Проявочная лампа маляра LOSSEW LAMP P2 TWL',
+    },
+    {
+        'href': 'images/lossew-lamp/lossew-lamp-2-650w.webp',
+        'type': 'image',
+        'alt': 'Правило-уровень 1500мм STARTUL MASTER',
+    },
+    {
+        'href': 'images/lossew-lamp/lossew-lamp-3-650w.webp',
+        'type': 'image',
+        'alt': 'Правило-уровень 1500мм STARTUL MASTER',
+    },
+    {
+        'href': 'images/lossew-lamp/lossew-lamp-4-650w.webp',
+        'type': 'image',
         'alt': 'Правило-уровень 1500мм STARTUL MASTER',
     },
 ];
@@ -401,7 +416,7 @@ const createGalleryFromBlock = (block, elements) => {
                 { gallery: document.querySelector(".tile-cutter"), elements: tileCutterElements },
                 { gallery: document.querySelector(".karcher"), elements: karcherElements },
                 { gallery: document.querySelector(".grinder"), elements: grinderElements },
-                { gallery: document.querySelector(".rule"), elements: ruleElements },
+                { gallery: document.querySelector(".lossewLamp"), elements: lossewLampElements },
             ];
 
             galleries.map((item) => createGalleryFromBlock(item.gallery, item.elements))

@@ -258,11 +258,26 @@
       "alt": "\u0428\u043B\u0438\u0444\u043C\u0430\u0448\u0438\u043D\u0430 \u0434\u043B\u044F \u0441\u0442\u0435\u043D \u0438 \u043F\u043E\u0442\u043E\u043B\u043A\u043E\u0432 Wortex DG 2260"
     }
   ];
-  var ruleElements = [
+  var lossewLampElements = [
     {
-      "href": "images/rule/rule-640w.webp",
+      "href": "images/lossew-lamp/lossew-lamp-1-650w.webp",
       "type": "image",
-      "title": "\u041F\u0440\u0430\u0432\u0438\u043B\u043E-\u0443\u0440\u043E\u0432\u0435\u043D\u044C 1500\u043C\u043C STARTUL MASTER",
+      "title": "\u041F\u0440\u043E\u044F\u0432\u043E\u0447\u043D\u0430\u044F \u043B\u0430\u043C\u043F\u0430 \u043C\u0430\u043B\u044F\u0440\u0430 LOSSEW LAMP P2 TWL",
+      "alt": "\u041F\u0440\u043E\u044F\u0432\u043E\u0447\u043D\u0430\u044F \u043B\u0430\u043C\u043F\u0430 \u043C\u0430\u043B\u044F\u0440\u0430 LOSSEW LAMP P2 TWL"
+    },
+    {
+      "href": "images/lossew-lamp/lossew-lamp-2-650w.webp",
+      "type": "image",
+      "alt": "\u041F\u0440\u0430\u0432\u0438\u043B\u043E-\u0443\u0440\u043E\u0432\u0435\u043D\u044C 1500\u043C\u043C STARTUL MASTER"
+    },
+    {
+      "href": "images/lossew-lamp/lossew-lamp-3-650w.webp",
+      "type": "image",
+      "alt": "\u041F\u0440\u0430\u0432\u0438\u043B\u043E-\u0443\u0440\u043E\u0432\u0435\u043D\u044C 1500\u043C\u043C STARTUL MASTER"
+    },
+    {
+      "href": "images/lossew-lamp/lossew-lamp-4-650w.webp",
+      "type": "image",
       "alt": "\u041F\u0440\u0430\u0432\u0438\u043B\u043E-\u0443\u0440\u043E\u0432\u0435\u043D\u044C 1500\u043C\u043C STARTUL MASTER"
     }
   ];
@@ -380,7 +395,7 @@
           { gallery: document.querySelector(".tile-cutter"), elements: tileCutterElements },
           { gallery: document.querySelector(".karcher"), elements: karcherElements },
           { gallery: document.querySelector(".grinder"), elements: grinderElements },
-          { gallery: document.querySelector(".rule"), elements: ruleElements }
+          { gallery: document.querySelector(".lossewLamp"), elements: lossewLampElements }
         ];
         galleries.map((item) => createGalleryFromBlock(item.gallery, item.elements));
       };
