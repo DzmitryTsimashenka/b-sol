@@ -114,6 +114,39 @@ const matusevichaElements = [
         'alt': 'Матусевича',
     },
 ];
+const balconyElements = [
+    {
+        'href': 'images/balcony/balcony-1-650w.webp',
+        'type': 'image',
+        'title': 'Некий балкон',
+        'alt': 'Балкон',
+    },
+    {
+        'href': 'images/balcony/balcony-2-650w.webp',
+        'type': 'image',
+        'alt': 'Балкон',
+    },
+    {
+        'href': 'images/balcony/balcony-3-650w.webp',
+        'type': 'image',
+        'alt': 'Балкон',
+    },
+    {
+        'href': 'images/balcony/balcony-4-650w.webp',
+        'type': 'image',
+        'alt': 'Балкон',
+    },
+    {
+        'href': 'images/balcony/balcony-5-650w.webp',
+        'type': 'image',
+        'alt': 'Балкон',
+    },
+    {
+        'href': 'images/balcony/balcony-6-650w.webp',
+        'type': 'image',
+        'alt': 'Балкон',
+    },
+];
 
 const diamondCrownsElements = [
     {
@@ -410,6 +443,7 @@ const createGalleryFromBlock = (block, elements) => {
                 { gallery: document.querySelector(".las-vegas"), elements: lasVegasElements },
                 { gallery: document.querySelector(".minsk-mir"), elements: minskMirElements },
                 { gallery: document.querySelector(".matusevicha"), elements: matusevichaElements },
+                { gallery: document.querySelector(".balcony"), elements: balconyElements },
                 { gallery: document.querySelector(".diamond-crowns"), elements: diamondCrownsElements },
                 { gallery: document.querySelector(".airless-paint"), elements: airlessPaintElements },
                 { gallery: document.querySelector(".spatulas"), elements: spatulasElements },

@@ -111,6 +111,39 @@
       "alt": "\u041C\u0430\u0442\u0443\u0441\u0435\u0432\u0438\u0447\u0430"
     }
   ];
+  var balconyElements = [
+    {
+      "href": "images/balcony/balcony-1-650w.webp",
+      "type": "image",
+      "title": "\u041D\u0435\u043A\u0438\u0439 \u0431\u0430\u043B\u043A\u043E\u043D",
+      "alt": "\u0411\u0430\u043B\u043A\u043E\u043D"
+    },
+    {
+      "href": "images/balcony/balcony-2-650w.webp",
+      "type": "image",
+      "alt": "\u0411\u0430\u043B\u043A\u043E\u043D"
+    },
+    {
+      "href": "images/balcony/balcony-3-650w.webp",
+      "type": "image",
+      "alt": "\u0411\u0430\u043B\u043A\u043E\u043D"
+    },
+    {
+      "href": "images/balcony/balcony-4-650w.webp",
+      "type": "image",
+      "alt": "\u0411\u0430\u043B\u043A\u043E\u043D"
+    },
+    {
+      "href": "images/balcony/balcony-5-650w.webp",
+      "type": "image",
+      "alt": "\u0411\u0430\u043B\u043A\u043E\u043D"
+    },
+    {
+      "href": "images/balcony/balcony-6-650w.webp",
+      "type": "image",
+      "alt": "\u0411\u0430\u043B\u043A\u043E\u043D"
+    }
+  ];
   var diamondCrownsElements = [
     {
       "href": "images/diamond-crowns/diamond-crowns-640w.webp",
@@ -389,6 +422,7 @@
           { gallery: document.querySelector(".las-vegas"), elements: lasVegasElements },
           { gallery: document.querySelector(".minsk-mir"), elements: minskMirElements },
           { gallery: document.querySelector(".matusevicha"), elements: matusevichaElements },
+          { gallery: document.querySelector(".balcony"), elements: balconyElements },
           { gallery: document.querySelector(".diamond-crowns"), elements: diamondCrownsElements },
           { gallery: document.querySelector(".airless-paint"), elements: airlessPaintElements },
           { gallery: document.querySelector(".spatulas"), elements: spatulasElements },
