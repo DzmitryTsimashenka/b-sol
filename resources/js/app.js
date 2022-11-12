@@ -104,6 +104,11 @@ const matusevichaElements = [
         'alt': 'Матусевича',
     },
     {
+        'href': 'images/matusevicha/matusevicha-5-650w.webp',
+        'type': 'image',
+        'alt': 'Матусевича',
+    },
+    {
         'href': 'images/matusevicha/matusevicha-3-650w.webp',
         'type': 'image',
         'alt': 'Матусевича',
