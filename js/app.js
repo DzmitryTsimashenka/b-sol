@@ -37,6 +37,188 @@
       "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440"
     }
   ];
+  var minskMirMarrakeshElements = [
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-1-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-2-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-3-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-4-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-5-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-6-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-7-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-8-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-9-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-10-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-11-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-12-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-13-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-14-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-15-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-16-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-17-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-18-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-19-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-20-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-21-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-22-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-23-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-24-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-25-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-26-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-27-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-28-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-29-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-30-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-31-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-32-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-33-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-34-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-35-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    },
+    {
+      "href": "images/minsk-mir-marakesh/minsk-mir-marakesh-36-650w.webp",
+      "type": "image",
+      "alt": "\u0416\u041A \u041C\u0438\u043D\u0441\u043A \u041C\u0438\u0440. \u041C\u0430\u0440\u0440\u0430\u043A\u0435\u0448"
+    }
+  ];
   var lasVegasElements = [
     {
       "href": "images/las-vegas/las-vegas-1-650w.webp",
@@ -426,6 +608,7 @@
         const galleries = [
           { gallery: document.querySelector(".las-vegas"), elements: lasVegasElements },
           { gallery: document.querySelector(".minsk-mir"), elements: minskMirElements },
+          { gallery: document.querySelector(".minsk-mir-marakesh"), elements: minskMirMarrakeshElements },
           { gallery: document.querySelector(".matusevicha"), elements: matusevichaElements },
           { gallery: document.querySelector(".balcony"), elements: balconyElements },
           { gallery: document.querySelector(".diamond-crowns"), elements: diamondCrownsElements },
