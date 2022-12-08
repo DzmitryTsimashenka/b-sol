@@ -37,19 +37,6 @@ const minskMirElements = [
 ];
 const minskMirMarrakeshElements = [
     {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-1-650w.webp',
-        'type': 'image',
-        // 'title': 'ЖК Минск Мир',
-        // 'description': 'Готовая квартира с ремонтом',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-2-650w.webp',
-        'type': 'image',
-        // 'title': 'Площадь 29 м2. Срок ремонта - 1 месяц',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
         'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-3-650w.webp',
         'type': 'image',
         // 'title': 'В процессе ремонта возвели перегородку из кирпича',
@@ -62,32 +49,12 @@ const minskMirMarrakeshElements = [
         'alt': 'ЖК Минск Мир. Марракеш',
     },
     {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-5-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-6-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
         'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-7-650w.webp',
         'type': 'image',
         'alt': 'ЖК Минск Мир. Марракеш',
     },
     {
         'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-8-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-9-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-10-650w.webp',
         'type': 'image',
         'alt': 'ЖК Минск Мир. Марракеш',
     },
@@ -102,67 +69,7 @@ const minskMirMarrakeshElements = [
         'alt': 'ЖК Минск Мир. Марракеш',
     },
     {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-13-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-14-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-15-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
         'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-16-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-17-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-18-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-19-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-20-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-21-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-22-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-23-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-24-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-25-650w.webp',
         'type': 'image',
         'alt': 'ЖК Минск Мир. Марракеш',
     },
@@ -172,52 +79,12 @@ const minskMirMarrakeshElements = [
         'alt': 'ЖК Минск Мир. Марракеш',
     },
     {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-27-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
         'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-28-650w.webp',
         'type': 'image',
         'alt': 'ЖК Минск Мир. Марракеш',
     },
     {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-29-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-30-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-31-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-32-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
         'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-33-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-34-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-35-650w.webp',
-        'type': 'image',
-        'alt': 'ЖК Минск Мир. Марракеш',
-    },
-    {
-        'href': 'images/minsk-mir-marakesh/minsk-mir-marakesh-36-650w.webp',
         'type': 'image',
         'alt': 'ЖК Минск Мир. Марракеш',
     },
@@ -310,33 +177,33 @@ const balconyElements = [
     {
         'href': 'images/balcony/balcony-1-650w.webp',
         'type': 'image',
-        'title': 'Некий балкон',
-        'alt': 'Балкон',
+        'title': 'Утепление Балкона. Ул. Илимская.',
+        'alt': 'Утепление Балкона',
     },
     {
         'href': 'images/balcony/balcony-2-650w.webp',
         'type': 'image',
-        'alt': 'Балкон',
+        'alt': 'Утепление Балкона',
     },
     {
         'href': 'images/balcony/balcony-3-650w.webp',
         'type': 'image',
-        'alt': 'Балкон',
+        'alt': 'Утепление Балкона',
     },
     {
         'href': 'images/balcony/balcony-4-650w.webp',
         'type': 'image',
-        'alt': 'Балкон',
+        'alt': 'Утепление Балкона',
     },
     {
         'href': 'images/balcony/balcony-5-650w.webp',
         'type': 'image',
-        'alt': 'Балкон',
+        'alt': 'Утепление Балкона',
     },
     {
         'href': 'images/balcony/balcony-6-650w.webp',
         'type': 'image',
-        'alt': 'Балкон',
+        'alt': 'Утепление Балкона',
     },
 ];
 
