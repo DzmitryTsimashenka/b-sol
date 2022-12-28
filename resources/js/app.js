@@ -377,6 +377,22 @@ const lossewLampElements = [
         'alt': 'Правило-уровень 1500мм STARTUL MASTER',
     },
 ];
+const feedback_1 = [
+    {
+        'href': 'videos/feedback-1.mp4',
+        'type': 'video',
+        'title': 'Подготовка стен в частном доме под окраску и окраска безвоздушным аппаратом ( переделка )',
+        'alt': 'Подготовка стен в частном доме под окраску и окраска безвоздушным аппаратом ( переделка )',
+    },
+];
+const feedback_2 = [
+    {
+        'href': 'videos/feedback-2.mp4',
+        'type': 'video',
+        'title': 'Комплексный ремонт однокомнатной квартиры ЖК Минск Мир',
+        'alt': 'Комплексный ремонт однокомнатной квартиры ЖК Минск Мир',
+    },
+];
 
 const createGalleryFromBlock = (block, elements) => {
     if (block !== null) {
@@ -511,6 +527,8 @@ const createGalleryFromBlock = (block, elements) => {
                 { gallery: document.querySelector(".karcher"), elements: karcherElements },
                 { gallery: document.querySelector(".grinder"), elements: grinderElements },
                 { gallery: document.querySelector(".lossewLamp"), elements: lossewLampElements },
+                { gallery: document.querySelector(".feedback-1"), elements: feedback_1 },
+                { gallery: document.querySelector(".feedback-2"), elements: feedback_2 },
             ];
 
             galleries.map((item) => createGalleryFromBlock(item.gallery, item.elements))

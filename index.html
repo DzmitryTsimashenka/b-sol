@@ -24,6 +24,7 @@
                 <li><a class="block p-4 text-white text-sm" href="#home">Главная</a></li>
                 <li><a class="block p-4 text-white text-sm active" href="#our-work">Наши работы</a></li>
                 <li><a class="block p-4 text-white text-sm" href="#our-tools">Инструмент</a></li>
+                <li><a class="block p-4 text-white text-sm" href="#feedbacks">Отзывы</a></li>
                 <li><a class="block p-4 text-white text-sm" href="#contacts">Контакты</a></li>
             </ul>
         </nav>
@@ -80,6 +81,16 @@
                         class="block py-4"
                     >
                         Инструмент
+                    </a
+                >
+                </li>
+                <li class="border-b-2 border-sky-900 hover:text-white pl-4">
+                    <a
+                        x-on:click="open = !open"
+                        href="#feedbacks"
+                        class="block py-4"
+                    >
+                        Отзывы
                     </a
                 >
                 </li>
@@ -601,31 +612,31 @@
             <div class="flex flex-wrap flex-row justify-center">
                 <figure class="flex-shrink max-w-full px-4 w-full sm:w-1/2 lg:w-1/5 group">
                     <div class="relative overflow-hidden cursor-pointer mb-6">
-                        <a href="#" class="diamond-crowns">
+                        <a href="#" class="feedback-1">
                             <picture>
-                                <source media="(max-width: 425px)" srcset="images/diamond-crowns/diamond-crowns-400w.webp">
-                                <source media="(max-width: 640px)" srcset="images/diamond-crowns/diamond-crowns-640w.webp">
-                                <source media="(min-width: 641px)" srcset="images/diamond-crowns/diamond-crowns-320w.webp">
+                                <source media="(max-width: 425px)" srcset="images/feedbacks/feedback-1-400w.webp">
+                                <source media="(max-width: 640px)" srcset="images/feedbacks/feedback-1-640w.webp">
+                                <source media="(min-width: 641px)" srcset="images/feedbacks/feedback-1-320w.webp">
                                 <img
-                                        src="images/diamond-crowns/diamond-crowns-640w.webp"
+                                        src="images/feedbacks/feedback-1-640w.webp"
                                         loading="lazy"
                                         class="block w-full md:transform md:duration-500 md:hover:scale-125"
                                         alt="Алмазные коронки для плитки"
                                 >
                             </picture>
                             <div class="absolute inset-x-0 bottom-0 ease-in overflow-hidden px-4 py-2 opacity-80 text-gray-100 bg-black text-center">
-                                <h3 class="text-base leading-normal font-semibold text-white">Алмазные коронки</h3>
+                                <h3 class="text-base leading-normal font-semibold text-white">Подготовка стен в частном доме</h3>
                             </div>
                         </a>
                     </div>
                 </figure>
                 <figure class="flex-shrink max-w-full px-4 w-full sm:w-1/2 lg:w-1/5 group">
                     <div class="relative overflow-hidden cursor-pointer mb-6">
-                        <a href="#" class="airless-paint">
+                        <a href="#" class="feedback-2">
                             <picture>
-                                <source media="(max-width: 425px)" srcset="images/airless-paint/airless-paint-400w.webp">
-                                <source media="(max-width: 640px)" srcset="images/airless-paint/airless-paint-640w.webp">
-                                <source media="(min-width: 641px)" srcset="images/airless-paint/airless-paint-320w.webp">
+                                <source media="(max-width: 425px)" srcset="images/minsk-mir-marakesh/minsk-mir-marakesh-1-400w.webp">
+                                <source media="(max-width: 640px)" srcset="images/minsk-mir-marakesh/minsk-mir-marakesh-1-640w.webp">
+                                <source media="(min-width: 641px)" srcset="images/minsk-mir-marakesh/minsk-mir-marakesh-1-320w.webp">
                                 <img
                                         src="images/airless-paint/airless-paint-640w.webp"
                                         loading="lazy"
@@ -634,107 +645,7 @@
                                 >
                             </picture>
                             <div class="absolute inset-x-0 bottom-0 ease-in overflow-hidden px-4 py-2 opacity-80 text-gray-100 bg-black text-center">
-                                <h3 class="text-base leading-normal font-semibold text-white">Окрасочный аппарат HVBAN</h3>
-                            </div>
-                        </a>
-                    </div>
-                </figure>
-                <figure class="flex-shrink max-w-full px-4 w-full sm:w-1/2 lg:w-1/5 group">
-                    <div class="relative overflow-hidden cursor-pointer mb-6">
-                        <a href="#" class="spatulas">
-                            <picture>
-                                <source media="(max-width: 425px)" srcset="images/spatulas/spatulas-400w.webp">
-                                <source media="(max-width: 640px)" srcset="images/spatulas/spatulas-640w.webp">
-                                <source media="(min-width: 641px)" srcset="images/spatulas/spatulas-320w.webp">
-                                <img
-                                        src="images/spatulas/spatulas-640w.webp"
-                                        loading="lazy"
-                                        class="block w-full md:transform md:duration-500 md:hover:scale-125"
-                                        alt="Набор шпателей"
-                                >
-                            </picture>
-                            <div class="absolute inset-x-0 bottom-0 ease-in overflow-hidden px-4 py-2 opacity-80 text-gray-100 bg-black text-center">
-                                <h3 class="text-base leading-normal font-semibold text-white">Набор шпателей</h3>
-                            </div>
-                        </a>
-                    </div>
-                </figure>
-                <figure class="flex-shrink max-w-full px-4 w-full sm:w-1/2 lg:w-1/5 group">
-                    <div class="relative overflow-hidden cursor-pointer mb-6">
-                        <a href="#" class="tile-cutter">
-                            <picture>
-                                <source media="(max-width: 425px)" srcset="images/tile-cutter/tile-cutter-400w.webp">
-                                <source media="(max-width: 640px)" srcset="images/tile-cutter/tile-cutter-640w.webp">
-                                <source media="(min-width: 641px)" srcset="images/tile-cutter/tile-cutter-320w.webp">
-                                <img
-                                        src="images/tile-cutter/tile-cutter-640w.webp"
-                                        loading="lazy"
-                                        class="block w-full md:transform md:duration-500 md:hover:scale-125"
-                                        alt="Плиткорез DLT PROLINE"
-                                >
-                            </picture>
-                            <div class="absolute inset-x-0 bottom-0 ease-in overflow-hidden px-4 py-2 opacity-80 text-gray-100 bg-black text-center">
-                                <h3 class="text-base leading-normal font-semibold text-white">Плиткорез DLT PROLINE</h3>
-                            </div>
-                        </a>
-                    </div>
-                </figure>
-                <figure class="flex-shrink max-w-full px-4 w-full sm:w-1/2 lg:w-1/5 group">
-                    <div class="relative overflow-hidden cursor-pointer mb-6">
-                        <a href="#" class="karcher">
-                            <picture>
-                                <source media="(max-width: 425px)" srcset="images/karcher/karcher-400w.webp">
-                                <source media="(max-width: 640px)" srcset="images/karcher/karcher-640w.webp">
-                                <source media="(min-width: 641px)" srcset="images/karcher/karcher-320w.webp">
-                                <img
-                                        src="images/karcher/karcher-640w.webp"
-                                        loading="lazy"
-                                        class="block w-full md:transform md:duration-500 md:hover:scale-125"
-                                        alt="Пылесос Karcher"
-                                >
-                            </picture>
-                            <div class="absolute inset-x-0 bottom-0 ease-in overflow-hidden px-4 py-2 opacity-80 text-gray-100 bg-black text-center">
-                                <h3 class="text-base leading-normal font-semibold text-white">KÄRCHER WD 3 P</h3>
-                            </div>
-                        </a>
-                    </div>
-                </figure>
-                <figure class="flex-shrink max-w-full px-4 w-full sm:w-1/2 lg:w-1/5 group">
-                    <div class="relative overflow-hidden cursor-pointer mb-6">
-                        <a href="#" class="grinder">
-                            <picture>
-                                <source media="(max-width: 425px)" srcset="images/grinder/grinder-400w.webp">
-                                <source media="(max-width: 640px)" srcset="images/grinder/grinder-640w.webp">
-                                <source media="(min-width: 641px)" srcset="images/grinder/grinder-320w.webp">
-                                <img
-                                        src="images/grinder/grinder-640w.webp"
-                                        loading="lazy"
-                                        class="block w-full md:transform md:duration-500 md:hover:scale-125"
-                                        alt="Шлифмашина для стен"
-                                >
-                            </picture>
-                            <div class="absolute inset-x-0 bottom-0 ease-in overflow-hidden px-4 py-2 opacity-80 text-gray-100 bg-black text-center">
-                                <h3 class="text-base leading-normal font-semibold text-white">Шлифмашина для стен</h3>
-                            </div>
-                        </a>
-                    </div>
-                </figure>
-                <figure class="flex-shrink max-w-full px-4 w-full sm:w-1/2 lg:w-1/5 group">
-                    <div class="relative overflow-hidden cursor-pointer mb-6">
-                        <a href="#" class="lossewLamp">
-                            <picture>
-                                <source media="(max-width: 425px)" srcset="images/lossew-lamp/lossew-lamp-1-400w.webp">
-                                <source media="(max-width: 640px)" srcset="images/lossew-lamp/lossew-lamp-1-640w.webp">
-                                <source media="(min-width: 641px)" srcset="images/lossew-lamp/lossew-lamp-1-320w.webp">
-                                <img
-                                        src="images/lossew-lamp/lossew-lamp-1-640w.webp"
-                                        loading="lazy"
-                                        class="block w-full md:transform md:duration-500 md:hover:scale-125"
-                                        alt="Проявочная лампа маляра LOSSEW LAMP P2 TWL"
-                                >
-                            </picture>
-                            <div class="absolute inset-x-0 bottom-0 ease-in overflow-hidden px-4 py-2 opacity-80 text-gray-100 bg-black text-center">
-                                <h3 class="text-base leading-normal font-semibold text-white">Проявочная лампа маляра</h3>
+                                <h3 class="text-base leading-normal font-semibold text-white">Комплексный ремонт однокомнатной квартиры</h3>
                             </div>
                         </a>
                     </div>
