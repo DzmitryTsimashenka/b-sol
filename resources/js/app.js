@@ -393,6 +393,44 @@ const feedback_2 = [
         'alt': 'Комплексный ремонт однокомнатной квартиры ЖК Минск Мир',
     },
 ];
+const feedback_3 = [
+    {
+        'href': 'images/feedbacks/feedback-2-650w.webp',
+        'type': 'image',
+        'title': '',
+        'alt': '',
+    },
+    {
+        'href': 'images/feedbacks/feedback-3-650w.webp',
+        'type': 'image',
+        'title': '',
+        'alt': '',
+    },
+    {
+        'href': 'images/feedbacks/feedback-4-650w.webp',
+        'type': 'image',
+        'title': '',
+        'alt': '',
+    },
+    {
+        'href': 'images/feedbacks/feedback-5-650w.webp',
+        'type': 'image',
+        'title': '',
+        'alt': '',
+    },
+    {
+        'href': 'images/feedbacks/feedback-6-650w.webp',
+        'type': 'image',
+        'title': '',
+        'alt': '',
+    },
+    {
+        'href': 'images/feedbacks/feedback-7-650w.webp',
+        'type': 'image',
+        'title': '',
+        'alt': '',
+    },
+];
 
 const createGalleryFromBlock = (block, elements) => {
     if (block !== null) {
@@ -529,6 +567,7 @@ const createGalleryFromBlock = (block, elements) => {
                 { gallery: document.querySelector(".lossewLamp"), elements: lossewLampElements },
                 { gallery: document.querySelector(".feedback-1"), elements: feedback_1 },
                 { gallery: document.querySelector(".feedback-2"), elements: feedback_2 },
+                { gallery: document.querySelector(".feedback-3"), elements: feedback_3 },
             ];
 
             galleries.map((item) => createGalleryFromBlock(item.gallery, item.elements))
